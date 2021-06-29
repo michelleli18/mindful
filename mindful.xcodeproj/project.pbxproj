@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B57D262268BB2BC006FF7BD /* Comfortaa in Resources */ = {isa = PBXBuildFile; fileRef = 5B57D261268BB2BC006FF7BD /* Comfortaa */; };
 		A8DB9261268BACEE005F127D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB9260268BACEE005F127D /* AppDelegate.swift */; };
 		A8DB9263268BACEE005F127D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB9262268BACEE005F127D /* SceneDelegate.swift */; };
 		A8DB9265268BACEE005F127D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB9264268BACEE005F127D /* ViewController.swift */; };
@@ -14,10 +15,10 @@
 		A8DB926B268BACEE005F127D /* mindful.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8DB9269268BACEE005F127D /* mindful.xcdatamodeld */; };
 		A8DB926D268BACF0005F127D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8DB926C268BACF0005F127D /* Assets.xcassets */; };
 		A8DB9270268BACF0005F127D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8DB926E268BACF0005F127D /* LaunchScreen.storyboard */; };
-		A8DB9278268BB179005F127D /* Comfortaa in Resources */ = {isa = PBXBuildFile; fileRef = A8DB9277268BB179005F127D /* Comfortaa */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B57D261268BB2BC006FF7BD /* Comfortaa */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Comfortaa; path = ../../../Downloads/Comfortaa; sourceTree = "<group>"; };
 		A8DB925D268BACEE005F127D /* mindful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mindful.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8DB9260268BACEE005F127D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8DB9262268BACEE005F127D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,7 +28,6 @@
 		A8DB926C268BACF0005F127D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8DB926F268BACF0005F127D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8DB9271268BACF0005F127D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8DB9277268BB179005F127D /* Comfortaa */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Comfortaa; path = ../../../Comfortaa; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 				A8DB926E268BACF0005F127D /* LaunchScreen.storyboard */,
 				A8DB9271268BACF0005F127D /* Info.plist */,
 				A8DB9269268BACEE005F127D /* mindful.xcdatamodeld */,
-				A8DB9277268BB179005F127D /* Comfortaa */,
+				5B57D261268BB2BC006FF7BD /* Comfortaa */,
 			);
 			path = mindful;
 			sourceTree = "<group>";
@@ -131,9 +131,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8DB9270268BACF0005F127D /* LaunchScreen.storyboard in Resources */,
-				A8DB9278268BB179005F127D /* Comfortaa in Resources */,
 				A8DB926D268BACF0005F127D /* Assets.xcassets in Resources */,
 				A8DB9268268BACEE005F127D /* Main.storyboard in Resources */,
+				5B57D262268BB2BC006FF7BD /* Comfortaa in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
