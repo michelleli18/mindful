@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B2D4F70268BC96300D64081 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D4F6F268BC96300D64081 /* HomePageViewController.swift */; };
 		5B57D262268BB2BC006FF7BD /* Comfortaa in Resources */ = {isa = PBXBuildFile; fileRef = 5B57D261268BB2BC006FF7BD /* Comfortaa */; };
 		A8DB9261268BACEE005F127D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB9260268BACEE005F127D /* AppDelegate.swift */; };
 		A8DB9263268BACEE005F127D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB9262268BACEE005F127D /* SceneDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B2D4F6F268BC96300D64081 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		5B57D261268BB2BC006FF7BD /* Comfortaa */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Comfortaa; path = ../../../Downloads/Comfortaa; sourceTree = "<group>"; };
 		A8DB925D268BACEE005F127D /* mindful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mindful.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8DB9260268BACEE005F127D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				A8DB9271268BACF0005F127D /* Info.plist */,
 				A8DB9269268BACEE005F127D /* mindful.xcdatamodeld */,
 				5B57D261268BB2BC006FF7BD /* Comfortaa */,
+				5B2D4F6F268BC96300D64081 /* HomePageViewController.swift */,
 			);
 			path = mindful;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				A8DB9265268BACEE005F127D /* ViewController.swift in Sources */,
 				A8DB9261268BACEE005F127D /* AppDelegate.swift in Sources */,
 				A8DB9263268BACEE005F127D /* SceneDelegate.swift in Sources */,
+				5B2D4F70268BC96300D64081 /* HomePageViewController.swift in Sources */,
 				A8DB926B268BACEE005F127D /* mindful.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +300,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = mindful/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +319,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = mindful/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
