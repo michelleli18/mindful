@@ -158,17 +158,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JFW-fq-97y">
-                                <rect key="frame" x="36" y="721" width="48" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JFW-fq-97y">
+                                <rect key="frame" x="31" y="716" width="48" height="48"/>
                                 <state key="normal" backgroundImage="left arrow"/>
                                 <connections>
                                     <segue destination="67b-MN-Hgi" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="rU6-Aj-3zh"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1TL-Jt-oCQ">
-                                <rect key="frame" x="171" y="721" width="48" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1TL-Jt-oCQ">
+                                <rect key="frame" x="171" y="716" width="48" height="48"/>
                                 <state key="normal" backgroundImage="home button"/>
                                 <connections>
                                     <action selector="homeButtonPressed:" destination="GpP-Y4-4MG" eventType="touchUpInside" id="DDr-c7-dXQ"/>
@@ -182,9 +180,8 @@
                                 <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eSN-nH-ETD">
-                                <rect key="frame" x="297" y="721" width="48" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eSN-nH-ETD">
+                                <rect key="frame" x="311" y="716" width="48" height="48"/>
                                 <state key="normal" backgroundImage="right arrow"/>
                                 <connections>
                                     <action selector="nextButtonPressed:" destination="71C-r1-Slx" eventType="touchUpInside" id="SxG-Bw-CMb"/>
@@ -208,6 +205,14 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eJe-FF-VeB"/>
                         <color key="backgroundColor" red="0.9777798057" green="0.85991555450000001" blue="0.78224420549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="JFW-fq-97y" firstAttribute="centerY" secondItem="DOp-cX-pYg" secondAttribute="centerY" constant="318" id="Fdq-jx-mj9"/>
+                            <constraint firstItem="eSN-nH-ETD" firstAttribute="centerX" secondItem="DOp-cX-pYg" secondAttribute="centerX" constant="140" id="Wel-kK-O4e"/>
+                            <constraint firstItem="1TL-Jt-oCQ" firstAttribute="centerX" secondItem="DOp-cX-pYg" secondAttribute="centerX" id="ovn-iM-EQj"/>
+                            <constraint firstItem="1TL-Jt-oCQ" firstAttribute="centerY" secondItem="DOp-cX-pYg" secondAttribute="centerY" constant="318" id="qES-v5-RcM"/>
+                            <constraint firstItem="JFW-fq-97y" firstAttribute="centerX" secondItem="DOp-cX-pYg" secondAttribute="centerX" constant="-140" id="vIs-nT-QfW"/>
+                            <constraint firstItem="eSN-nH-ETD" firstAttribute="centerY" secondItem="DOp-cX-pYg" secondAttribute="centerY" constant="318" id="z6B-Fi-VUM"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="D2x-rR-HAA"/>
                 </viewController>
@@ -223,9 +228,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DDX-yg-X5o">
-                                <rect key="frame" x="36" y="727" width="48" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DDX-yg-X5o">
+                                <rect key="frame" x="31" y="716" width="48" height="48"/>
                                 <state key="normal" backgroundImage="left arrow"/>
                                 <connections>
                                     <segue destination="fti-RF-hJk" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="xV6-ax-boc"/>
@@ -238,9 +242,8 @@
                                 <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5zO-4D-aN6">
-                                <rect key="frame" x="171" y="727" width="48" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5zO-4D-aN6">
+                                <rect key="frame" x="171" y="716" width="48" height="48"/>
                                 <state key="normal" backgroundImage="home button"/>
                                 <connections>
                                     <action selector="homeButtonPressed:" destination="GpP-Y4-4MG" eventType="touchUpInside" id="9VA-jI-aBp"/>
@@ -264,6 +267,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vvI-I7-1gx"/>
                         <color key="backgroundColor" red="0.9777798057" green="0.85991555450000001" blue="0.78224420549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="DDX-yg-X5o" firstAttribute="centerX" secondItem="9qn-of-MIB" secondAttribute="centerX" constant="-140" id="HaR-fM-XIf"/>
+                            <constraint firstItem="DDX-yg-X5o" firstAttribute="centerY" secondItem="9qn-of-MIB" secondAttribute="centerY" constant="318" id="WfE-DX-Uvz"/>
+                            <constraint firstItem="5zO-4D-aN6" firstAttribute="centerX" secondItem="9qn-of-MIB" secondAttribute="centerX" id="lWZ-kF-2Eh"/>
+                            <constraint firstItem="5zO-4D-aN6" firstAttribute="centerY" secondItem="9qn-of-MIB" secondAttribute="centerY" constant="318" id="xfQ-zn-Thr"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="pJr-QG-HVL"/>
                 </viewController>
@@ -373,9 +382,8 @@
                                 <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8qc-E6-NDz">
-                                <rect key="frame" x="304" y="716" width="48" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8qc-E6-NDz">
+                                <rect key="frame" x="311" y="716" width="48" height="48"/>
                                 <state key="normal" backgroundImage="right arrow"/>
                                 <connections>
                                     <action selector="nextButtonPressed:" destination="71C-r1-Slx" eventType="touchUpInside" id="MH4-uu-fi4"/>
@@ -393,7 +401,9 @@
                         <viewLayoutGuide key="safeArea" id="1Yf-DD-KnH"/>
                         <color key="backgroundColor" red="0.97254908080000002" green="0.86274516580000005" blue="0.78039217000000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="8qc-E6-NDz" firstAttribute="centerX" secondItem="u6A-ya-yw4" secondAttribute="centerX" constant="140" id="V9c-AH-cwj"/>
                             <constraint firstItem="5rp-yI-UiQ" firstAttribute="centerY" secondItem="u6A-ya-yw4" secondAttribute="centerY" constant="318" id="Xnv-SA-ond"/>
+                            <constraint firstItem="8qc-E6-NDz" firstAttribute="centerY" secondItem="u6A-ya-yw4" secondAttribute="centerY" constant="318" id="h3l-vG-FVp"/>
                             <constraint firstItem="5rp-yI-UiQ" firstAttribute="centerX" secondItem="u6A-ya-yw4" secondAttribute="centerX" constant="-140" id="j2q-kF-7Ad"/>
                             <constraint firstItem="f6w-No-LWa" firstAttribute="centerY" secondItem="u6A-ya-yw4" secondAttribute="centerY" constant="318" id="oX1-4v-SFz"/>
                             <constraint firstItem="f6w-No-LWa" firstAttribute="centerX" secondItem="u6A-ya-yw4" secondAttribute="centerX" id="zYj-7W-BYP"/>
@@ -407,10 +417,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="IPv-x0-Xw0"/>
-        <segue reference="D80-ue-bca"/>
-        <segue reference="1Vn-en-FbZ"/>
-        <segue reference="KPT-ra-SjX"/>
+        <segue reference="rU6-Aj-3zh"/>
+        <segue reference="9Yb-oq-vVr"/>
+        <segue reference="xV6-ax-boc"/>
+        <segue reference="gYP-rx-8Dt"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="home button" width="48" height="48"/>
