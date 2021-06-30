@@ -21,7 +21,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dn5-pv-ASr">
-                                <rect key="frame" x="114" y="642" width="162" height="12"/>
+                                <rect key="frame" x="127.66666666666669" y="642" width="135" height="12"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="12" id="4Nv-gk-xd3"/>
                                 </constraints>
@@ -129,6 +129,9 @@
                                 <state key="normal" title="BLM/Stop Asian Hate">
                                     <color key="titleColor" red="0.027943318710000001" green="0.27145153280000001" blue="0.2550310194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="fti-RF-hJk" kind="show" id="1Vn-en-FbZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OWE-xN-H7W"/>
@@ -146,6 +149,117 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JXz-8N-rL2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="924.61538461538453" y="103.7914691943128"/>
+        </scene>
+        <!--Social Justice View Controller-->
+        <scene sceneID="aM8-D1-93P">
+            <objects>
+                <viewController id="fti-RF-hJk" customClass="SocialJusticeViewController" customModule="mindful" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DOp-cX-pYg">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JFW-fq-97y">
+                                <rect key="frame" x="34" y="721" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="left arrow"/>
+                                <connections>
+                                    <segue destination="67b-MN-Hgi" kind="show" id="rU6-Aj-3zh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1TL-Jt-oCQ">
+                                <rect key="frame" x="171" y="721" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="home button"/>
+                                <connections>
+                                    <action selector="homeButtonPressed:" destination="GpP-Y4-4MG" eventType="touchUpInside" id="DDr-c7-dXQ"/>
+                                    <segue destination="vyJ-i2-Hiq" kind="show" id="CA2-MK-sdm"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Social Justice" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rp1-6y-w17">
+                                <rect key="frame" x="68" y="70" width="255" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="41"/>
+                                <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="info" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aDn-d3-nGb">
+                                <rect key="frame" x="34" y="196" width="50" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="25"/>
+                                <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="resources" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VR4-Ip-876">
+                                <rect key="frame" x="16" y="408" width="128" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="25"/>
+                                <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="eJe-FF-VeB"/>
+                        <color key="backgroundColor" red="0.9777798057" green="0.85991555450000001" blue="0.78224420549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="D2x-rR-HAA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ga2-2j-nmo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2016" y="251"/>
+        </scene>
+        <!--Covid Concerns View Controller-->
+        <scene sceneID="lGm-7H-MNQ">
+            <objects>
+                <viewController id="UgI-dV-EIZ" customClass="CovidConcernsViewController" customModule="mindful" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9qn-of-MIB">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5zO-4D-aN6">
+                                <rect key="frame" x="171" y="748" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="home button"/>
+                                <connections>
+                                    <action selector="homeButtonPressed:" destination="GpP-Y4-4MG" eventType="touchUpInside" id="9VA-jI-aBp"/>
+                                    <segue destination="vyJ-i2-Hiq" kind="show" id="gYP-rx-8Dt"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Covid Concerns" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ne-Fp-rxr">
+                                <rect key="frame" x="47" y="108" width="297" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="41"/>
+                                <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="info" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xwy-J0-Pbd">
+                                <rect key="frame" x="16" y="243" width="50" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="25"/>
+                                <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="resources" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BAC-Qh-PRh">
+                                <rect key="frame" x="16" y="456" width="128" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="25"/>
+                                <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DDX-yg-X5o">
+                                <rect key="frame" x="18" y="748" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="left arrow"/>
+                                <connections>
+                                    <segue destination="fti-RF-hJk" kind="show" id="xV6-ax-boc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vvI-I7-1gx"/>
+                        <color key="backgroundColor" red="0.9777798057" green="0.85991555450000001" blue="0.78224420549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y7g-RT-4bZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3055" y="274"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yst-Mx-Hwn">
@@ -210,10 +324,10 @@
             </objects>
             <point key="canvasLocation" x="2021.5384615384614" y="-516.11374407582935"/>
         </scene>
-        <!--View Controller-->
+        <!--Student Pressures View Controller-->
         <scene sceneID="LMT-Eb-yq3">
             <objects>
-                <viewController id="67b-MN-Hgi" sceneMemberID="viewController">
+                <viewController id="67b-MN-Hgi" customClass="StudentPressuresViewController" customModule="mindful" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="u6A-ya-yw4">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -233,6 +347,27 @@
                                     <segue destination="vyJ-i2-Hiq" kind="show" id="KiZ-hm-xRG"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Student Pressures" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZA-Nj-i17">
+                                <rect key="frame" x="28" y="70" width="337" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="41"/>
+                                <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="info" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jkA-UY-LeL">
+                                <rect key="frame" x="31" y="191" width="50" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="25"/>
+                                <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="resources" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qf8-Jz-0bd">
+                                <rect key="frame" x="31" y="425" width="128" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="25"/>
+                                <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1Yf-DD-KnH"/>
                         <color key="backgroundColor" red="0.97254908080000002" green="0.86274516580000005" blue="0.78039217000000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -251,8 +386,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="D80-ue-bca"/>
-        <segue reference="jlL-I1-kxV"/>
+        <segue reference="rU6-Aj-3zh"/>
+        <segue reference="9Yb-oq-vVr"/>
+        <segue reference="xV6-ax-boc"/>
+        <segue reference="gYP-rx-8Dt"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="home button" width="48" height="48"/>

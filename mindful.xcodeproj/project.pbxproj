@@ -17,6 +17,9 @@
 		A8DB9270268BACF0005F127D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8DB926E268BACF0005F127D /* LaunchScreen.storyboard */; };
 		A8DB927C268BF2FA005F127D /* Comfortaa in Resources */ = {isa = PBXBuildFile; fileRef = A8DB927B268BF2FA005F127D /* Comfortaa */; };
 		A8DB927E268BF54C005F127D /* LGBTQA+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB927D268BF54C005F127D /* LGBTQA+ViewController.swift */; };
+		CBC496FA268C1C6D006EFADC /* StudentPressuresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC496F9268C1C6D006EFADC /* StudentPressuresViewController.swift */; };
+		CBC496FC268C1D20006EFADC /* SocialJusticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC496FB268C1D20006EFADC /* SocialJusticeViewController.swift */; };
+		CBC496FE268C1F2A006EFADC /* CovidConcernsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC496FD268C1F2A006EFADC /* CovidConcernsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		A8DB9271268BACF0005F127D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8DB927B268BF2FA005F127D /* Comfortaa */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Comfortaa; path = ../../../Comfortaa; sourceTree = "<group>"; };
 		A8DB927D268BF54C005F127D /* LGBTQA+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LGBTQA+ViewController.swift"; sourceTree = "<group>"; };
+		CBC496F9268C1C6D006EFADC /* StudentPressuresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentPressuresViewController.swift; sourceTree = "<group>"; };
+		CBC496FB268C1D20006EFADC /* SocialJusticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialJusticeViewController.swift; sourceTree = "<group>"; };
+		CBC496FD268C1F2A006EFADC /* CovidConcernsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidConcernsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,9 @@
 				5B2D4F6F268BC96300D64081 /* HomePageViewController.swift */,
 				A8DB927B268BF2FA005F127D /* Comfortaa */,
 				A8DB927D268BF54C005F127D /* LGBTQA+ViewController.swift */,
+				CBC496F9268C1C6D006EFADC /* StudentPressuresViewController.swift */,
+				CBC496FB268C1D20006EFADC /* SocialJusticeViewController.swift */,
+				CBC496FD268C1F2A006EFADC /* CovidConcernsViewController.swift */,
 			);
 			path = mindful;
 			sourceTree = "<group>";
@@ -152,10 +161,13 @@
 			files = (
 				A8DB9265268BACEE005F127D /* ViewController.swift in Sources */,
 				A8DB9261268BACEE005F127D /* AppDelegate.swift in Sources */,
+				CBC496FA268C1C6D006EFADC /* StudentPressuresViewController.swift in Sources */,
 				A8DB9263268BACEE005F127D /* SceneDelegate.swift in Sources */,
+				CBC496FE268C1F2A006EFADC /* CovidConcernsViewController.swift in Sources */,
 				A8DB927E268BF54C005F127D /* LGBTQA+ViewController.swift in Sources */,
 				5B2D4F70268BC96300D64081 /* HomePageViewController.swift in Sources */,
 				A8DB926B268BACEE005F127D /* mindful.xcdatamodeld in Sources */,
+				CBC496FC268C1D20006EFADC /* SocialJusticeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
