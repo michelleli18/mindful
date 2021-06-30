@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="Comfortaa-Regular.ttf">
+        <array key="Comfortaa-VariableFont_wght.ttf">
             <string>Comfortaa-Regular</string>
         </array>
     </customFonts>
@@ -62,25 +62,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="103.79464285714285"/>
+            <point key="canvasLocation" x="135.38461538461539" y="103.7914691943128"/>
         </scene>
         <!--Home Page View Controller-->
         <scene sceneID="JEn-Ze-AwG">
             <objects>
                 <viewController id="vyJ-i2-Hiq" customClass="HomePageViewController" customModule="mindful" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="97F-7J-Ccl">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="home page" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bb7-cy-KZu">
-                                <rect key="frame" x="45" y="62" width="301" height="57"/>
+                                <rect key="frame" x="43.807417974323016" y="61.999999999999773" width="300.99999999999994" height="57.000000000000028"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="51"/>
                                 <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="description" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cM8-d7-H9Y">
-                                <rect key="frame" x="121" y="127" width="149" height="28"/>
+                                <rect key="frame" x="120.06990014265398" y="127" width="149" height="27.999999999999972"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="25"/>
                                 <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -93,6 +93,9 @@
                                 <state key="normal" title="LGBTQIA+">
                                     <color key="titleColor" red="0.027943318710000001" green="0.27145153280000001" blue="0.2550310194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="71C-r1-Slx" kind="show" id="D80-ue-bca"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEP-WS-Jg0">
                                 <rect key="frame" x="204" y="288" width="150" height="150"/>
@@ -131,6 +134,7 @@
                         <viewLayoutGuide key="safeArea" id="OWE-xN-H7W"/>
                         <color key="backgroundColor" red="0.95571309329999998" green="0.86819857359999997" blue="0.79214489460000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="xhz-Wh-755"/>
                     <connections>
                         <outlet property="blmsahButton" destination="iI5-du-23N" id="4xD-Ak-eVe"/>
                         <outlet property="covidButton" destination="Xi1-WU-Arh" id="62d-Ov-ghh"/>
@@ -143,8 +147,117 @@
             </objects>
             <point key="canvasLocation" x="924.61538461538453" y="103.7914691943128"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="yst-Mx-Hwn">
+            <objects>
+                <viewController id="71C-r1-Slx" customClass="LGBTQA_ViewController" customModule="mindful" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GHM-gk-CHW">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LGBTQA+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gvE-iE-EMj">
+                                <rect key="frame" x="73.163399663980726" y="73.999999999999773" width="243" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="51"/>
+                                <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="info" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dsb-jZ-S7n">
+                                <rect key="frame" x="43" y="188" width="50" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="25"/>
+                                <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="resources" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="woz-9i-SLm">
+                                <rect key="frame" x="43" y="432" width="128" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="25"/>
+                                <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OeR-mf-tZC">
+                                <rect key="frame" x="311" y="689" width="48" height="48"/>
+                                <state key="normal" backgroundImage="right arrow"/>
+                                <connections>
+                                    <action selector="nextButtonPressed:" destination="71C-r1-Slx" eventType="touchUpInside" id="6Um-fa-D3u"/>
+                                    <segue destination="67b-MN-Hgi" kind="show" id="1Qw-tE-eja"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bTC-dL-tFo">
+                                <rect key="frame" x="171" y="689" width="48" height="48"/>
+                                <state key="normal" backgroundImage="home button"/>
+                                <connections>
+                                    <action selector="homeButtonPressed:" destination="71C-r1-Slx" eventType="touchUpInside" id="pqd-h0-BX6"/>
+                                    <action selector="homeButtonPressed:" destination="GpP-Y4-4MG" eventType="touchUpInside" id="tr5-nO-Ggy"/>
+                                    <segue destination="vyJ-i2-Hiq" kind="show" id="jlL-I1-kxV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="m8o-YO-f6i"/>
+                        <color key="backgroundColor" red="0.97254908080000002" green="0.86274516580000005" blue="0.78039217000000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="bTC-dL-tFo" firstAttribute="centerX" secondItem="GHM-gk-CHW" secondAttribute="centerX" id="Q12-WB-yvJ"/>
+                            <constraint firstItem="OeR-mf-tZC" firstAttribute="centerX" secondItem="GHM-gk-CHW" secondAttribute="centerX" constant="140" id="Q6p-Ah-PXt"/>
+                            <constraint firstItem="OeR-mf-tZC" firstAttribute="centerY" secondItem="GHM-gk-CHW" secondAttribute="centerY" constant="318" id="akw-VA-KkX"/>
+                            <constraint firstItem="bTC-dL-tFo" firstAttribute="centerY" secondItem="GHM-gk-CHW" secondAttribute="centerY" constant="318" id="k5q-uM-H59"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ih0-dG-Hd1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AQZ-4E-Uxq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="GpP-Y4-4MG" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2021.5384615384614" y="-516.11374407582935"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="LMT-Eb-yq3">
+            <objects>
+                <viewController id="67b-MN-Hgi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="u6A-ya-yw4">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5rp-yI-UiQ">
+                                <rect key="frame" x="31" y="689" width="48" height="48"/>
+                                <state key="normal" backgroundImage="left arrow"/>
+                                <connections>
+                                    <segue destination="71C-r1-Slx" kind="show" id="9Yb-oq-vVr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f6w-No-LWa">
+                                <rect key="frame" x="171" y="689" width="48" height="48"/>
+                                <state key="normal" backgroundImage="home button"/>
+                                <connections>
+                                    <action selector="homeButtonPressed:" destination="GpP-Y4-4MG" eventType="touchUpInside" id="rNB-t5-N9K"/>
+                                    <segue destination="vyJ-i2-Hiq" kind="show" id="KiZ-hm-xRG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1Yf-DD-KnH"/>
+                        <color key="backgroundColor" red="0.97254908080000002" green="0.86274516580000005" blue="0.78039217000000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="5rp-yI-UiQ" firstAttribute="centerY" secondItem="u6A-ya-yw4" secondAttribute="centerY" constant="318" id="Xnv-SA-ond"/>
+                            <constraint firstItem="5rp-yI-UiQ" firstAttribute="centerX" secondItem="u6A-ya-yw4" secondAttribute="centerX" constant="-140" id="j2q-kF-7Ad"/>
+                            <constraint firstItem="f6w-No-LWa" firstAttribute="centerY" secondItem="u6A-ya-yw4" secondAttribute="centerY" constant="318" id="oX1-4v-SFz"/>
+                            <constraint firstItem="f6w-No-LWa" firstAttribute="centerX" secondItem="u6A-ya-yw4" secondAttribute="centerX" id="zYj-7W-BYP"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="SiM-kC-VOr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aBb-Ji-Sgb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2980" y="-516.11374407582935"/>
+        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="D80-ue-bca"/>
+        <segue reference="jlL-I1-kxV"/>
+    </inferredMetricsTieBreakers>
     <resources>
+        <image name="home button" width="48" height="48"/>
+        <image name="left arrow" width="48" height="48"/>
         <image name="mindful logo" width="2048" height="2048"/>
+        <image name="right arrow" width="48" height="48"/>
     </resources>
 </document>
