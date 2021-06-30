@@ -15,8 +15,8 @@
 		A8DB926B268BACEE005F127D /* mindful.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8DB9269268BACEE005F127D /* mindful.xcdatamodeld */; };
 		A8DB926D268BACF0005F127D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8DB926C268BACF0005F127D /* Assets.xcassets */; };
 		A8DB9270268BACF0005F127D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8DB926E268BACF0005F127D /* LaunchScreen.storyboard */; };
-		A8DB927C268BF2FA005F127D /* Comfortaa in Resources */ = {isa = PBXBuildFile; fileRef = A8DB927B268BF2FA005F127D /* Comfortaa */; };
 		A8DB927E268BF54C005F127D /* LGBTQA+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB927D268BF54C005F127D /* LGBTQA+ViewController.swift */; };
+		A8E382CA268C2393007EDE08 /* Comfortaa in Resources */ = {isa = PBXBuildFile; fileRef = A8E382C9268C2392007EDE08 /* Comfortaa */; };
 		CBC496FA268C1C6D006EFADC /* StudentPressuresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC496F9268C1C6D006EFADC /* StudentPressuresViewController.swift */; };
 		CBC496FC268C1D20006EFADC /* SocialJusticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC496FB268C1D20006EFADC /* SocialJusticeViewController.swift */; };
 		CBC496FE268C1F2A006EFADC /* CovidConcernsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC496FD268C1F2A006EFADC /* CovidConcernsViewController.swift */; };
@@ -33,8 +33,8 @@
 		A8DB926C268BACF0005F127D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8DB926F268BACF0005F127D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8DB9271268BACF0005F127D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8DB927B268BF2FA005F127D /* Comfortaa */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Comfortaa; path = ../../../Comfortaa; sourceTree = "<group>"; };
 		A8DB927D268BF54C005F127D /* LGBTQA+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LGBTQA+ViewController.swift"; sourceTree = "<group>"; };
+		A8E382C9268C2392007EDE08 /* Comfortaa */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Comfortaa; path = ../../../Downloads/Comfortaa; sourceTree = "<group>"; };
 		CBC496F9268C1C6D006EFADC /* StudentPressuresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentPressuresViewController.swift; sourceTree = "<group>"; };
 		CBC496FB268C1D20006EFADC /* SocialJusticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialJusticeViewController.swift; sourceTree = "<group>"; };
 		CBC496FD268C1F2A006EFADC /* CovidConcernsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidConcernsViewController.swift; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 				A8DB9271268BACF0005F127D /* Info.plist */,
 				A8DB9269268BACEE005F127D /* mindful.xcdatamodeld */,
 				5B2D4F6F268BC96300D64081 /* HomePageViewController.swift */,
-				A8DB927B268BF2FA005F127D /* Comfortaa */,
+				A8E382C9268C2392007EDE08 /* Comfortaa */,
 				A8DB927D268BF54C005F127D /* LGBTQA+ViewController.swift */,
 				CBC496F9268C1C6D006EFADC /* StudentPressuresViewController.swift */,
 				CBC496FB268C1D20006EFADC /* SocialJusticeViewController.swift */,
@@ -148,7 +148,7 @@
 				A8DB9270268BACF0005F127D /* LaunchScreen.storyboard in Resources */,
 				A8DB926D268BACF0005F127D /* Assets.xcassets in Resources */,
 				A8DB9268268BACEE005F127D /* Main.storyboard in Resources */,
-				A8DB927C268BF2FA005F127D /* Comfortaa in Resources */,
+				A8E382CA268C2393007EDE08 /* Comfortaa in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
