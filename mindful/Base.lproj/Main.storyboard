@@ -90,7 +90,7 @@
                                 <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GSu-iy-rhr">
-                                <rect key="frame" x="37" y="288" width="150" height="150"/>
+                                <rect key="frame" x="37" y="222" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="20"/>
@@ -102,7 +102,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="eEP-WS-Jg0">
-                                <rect key="frame" x="204" y="287" width="150" height="150"/>
+                                <rect key="frame" x="204" y="221" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="20"/>
@@ -114,7 +114,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Xi1-WU-Arh">
-                                <rect key="frame" x="120" y="624" width="150" height="150"/>
+                                <rect key="frame" x="120" y="558" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="20"/>
@@ -123,7 +123,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tit-ax-mP7">
-                                <rect key="frame" x="37" y="457" width="150" height="150"/>
+                                <rect key="frame" x="37" y="391" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="20"/>
@@ -132,7 +132,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="iI5-du-23N">
-                                <rect key="frame" x="204" y="457" width="150" height="150"/>
+                                <rect key="frame" x="204" y="391" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="20"/>
@@ -417,10 +417,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="1Qw-tE-eja"/>
-        <segue reference="9Yb-oq-vVr"/>
-        <segue reference="xV6-ax-boc"/>
-        <segue reference="gYP-rx-8Dt"/>
+        <segue reference="IPv-x0-Xw0"/>
+        <segue reference="D80-ue-bca"/>
+        <segue reference="1Vn-en-FbZ"/>
+        <segue reference="KPT-ra-SjX"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="home button" width="48" height="48"/>
