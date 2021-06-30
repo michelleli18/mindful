@@ -10,24 +10,22 @@ import UIKit
 class LGBTQA_ViewController: UIViewController {
     
     @IBOutlet weak var moreInfoText: UIButton!
+    @IBOutlet weak var titleText: UILabel!
+    @IBOutlet weak var nextButton: UIButton!
     
-    var websites = ["https://www.youtube.com/watch?v=HNOOeRVq9Xw", "https://www.google.com/?client=safari"]
-    var buttonNames = ["Click here to learn more about _", "Click here to learn more about __"]
-    var descriptions = ["", ""]
+    var websites = ["https://www.apa.org/pi/lgbt/resources/lgbt-health", "https://www.google.com/?client=safari", "http://www.glbtnationalhelpcenter.org/ "]
+    var buttonNames = ["Click here to learn more about APA", "Click here to learn more about The Treavor Project", "Click here to learn more about the LGBT national health center"]
+    var titles = ["The American Psychological Association (APA)", "The Trevor Project", "LGBT National Health Center"]
     var index = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        nextButton.layer.cornerRadius = 12
+        nextButton.layer.borderWidth = 2
+        nextButton.layer.borderColor = UIColor(red: 0, green: 61/255, blue: 57/255, alpha: 1).cgColor
     }
     
-  
-    @IBAction func homeButtonPressed(_ sender: Any) {
-    }
-    
-    @IBAction func nextButtonPressed(_ sender: Any) {
-    }
-
     @IBAction func moreInfoPressed(_ sender: UIButton) {
         UIApplication.shared.open(URL(string: websites[index])! as URL, options: [:], completionHandler: nil)
     }
@@ -35,5 +33,10 @@ class LGBTQA_ViewController: UIViewController {
         index += 1
         index = index % websites.count
         moreInfoText.setTitle(buttonNames[index], for: .normal)
+        titleText.text = titles[index]
     }
+    
+    @IBAction func homeButtonPressed(_ sender: Any) {
+    }
+
 }
