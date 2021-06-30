@@ -8,11 +8,15 @@
 import UIKit
 
 class LGBTQA_ViewController: UIViewController {
-
+    
+    @IBOutlet weak var moreInfoText: UIButton!
+    
+    var websites = ["https://www.youtube.com/watch?v=HNOOeRVq9Xw", "https://www.google.com/?client=safari"]
+    var websiteIndex = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
     }
     
 
@@ -21,14 +25,13 @@ class LGBTQA_ViewController: UIViewController {
     
     @IBAction func nextButtonPressed(_ sender: Any) {
     }
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func moreInfoPressed(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: websites[websiteIndex])! as URL, options: [:], completionHandler: nil)
     }
-    */
-
+    @IBAction func nextResourcePressed(_ sender: UIButton) {
+        websiteIndex += 1
+        websiteIndex = websiteIndex % websites.count
+        //moreInfoText.setTitle("testing", for: .normal)
+    }
 }

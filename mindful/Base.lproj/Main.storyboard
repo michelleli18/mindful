@@ -328,6 +328,22 @@
                                     <segue destination="vyJ-i2-Hiq" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="jlL-I1-kxV"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yOK-pd-4U8">
+                                <rect key="frame" x="115" y="601" width="160" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Click here for more info"/>
+                                <connections>
+                                    <action selector="moreInfoPressed:" destination="71C-r1-Slx" eventType="touchUpInside" id="bwW-Ey-oQ9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YGm-0N-tlk">
+                                <rect key="frame" x="336" y="601" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="next"/>
+                                <connections>
+                                    <action selector="nextResourcePressed:" destination="71C-r1-Slx" eventType="touchUpInside" id="KZA-0r-OAb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="m8o-YO-f6i"/>
                         <color key="backgroundColor" red="0.97254908080000002" green="0.86274516580000005" blue="0.78039217000000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -339,6 +355,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Ih0-dG-Hd1"/>
+                    <connections>
+                        <outlet property="moreInfoText" destination="yOK-pd-4U8" id="kOT-Uv-olM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AQZ-4E-Uxq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="GpP-Y4-4MG" userLabel="Exit" sceneMemberID="exit"/>
@@ -417,10 +436,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="IPv-x0-Xw0"/>
+        <segue reference="1Qw-tE-eja"/>
         <segue reference="D80-ue-bca"/>
         <segue reference="1Vn-en-FbZ"/>
-        <segue reference="KPT-ra-SjX"/>
+        <segue reference="jlL-I1-kxV"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="home button" width="48" height="48"/>

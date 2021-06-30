@@ -14,6 +14,7 @@
 		5BB48BD1268CEFE700E945FC /* Comfortaa-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BB48BCA268CEFB700E945FC /* Comfortaa-Medium.ttf */; };
 		5BB48BD3268CEFEA00E945FC /* Comfortaa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BB48BC8268CEFB700E945FC /* Comfortaa-Regular.ttf */; };
 		5BB48BD5268CEFEC00E945FC /* Comfortaa-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BB48BC9268CEFB700E945FC /* Comfortaa-SemiBold.ttf */; };
+		5BB48BD8268CF45900E945FC /* NSAtrributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB48BD7268CF45900E945FC /* NSAtrributedStringExtension.swift */; };
 		A8DB9261268BACEE005F127D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB9260268BACEE005F127D /* AppDelegate.swift */; };
 		A8DB9263268BACEE005F127D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB9262268BACEE005F127D /* SceneDelegate.swift */; };
 		A8DB9265268BACEE005F127D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB9264268BACEE005F127D /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 		5BB48BCA268CEFB700E945FC /* Comfortaa-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Medium.ttf"; sourceTree = "<group>"; };
 		5BB48BCB268CEFB700E945FC /* Comfortaa-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Light.ttf"; sourceTree = "<group>"; };
 		5BB48BCC268CEFB700E945FC /* Comfortaa-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Bold.ttf"; sourceTree = "<group>"; };
+		5BB48BD7268CF45900E945FC /* NSAtrributedStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAtrributedStringExtension.swift; sourceTree = "<group>"; };
 		A8DB925D268BACEE005F127D /* mindful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mindful.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8DB9260268BACEE005F127D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8DB9262268BACEE005F127D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				5BB48BCA268CEFB700E945FC /* Comfortaa-Medium.ttf */,
 				5BB48BC8268CEFB700E945FC /* Comfortaa-Regular.ttf */,
 				5BB48BC9268CEFB700E945FC /* Comfortaa-SemiBold.ttf */,
+				5BB48BD7268CF45900E945FC /* NSAtrributedStringExtension.swift */,
 			);
 			path = mindful;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				A8DB9265268BACEE005F127D /* ViewController.swift in Sources */,
 				A8DB9261268BACEE005F127D /* AppDelegate.swift in Sources */,
 				CBC496FA268C1C6D006EFADC /* StudentPressuresViewController.swift in Sources */,
+				5BB48BD8268CF45900E945FC /* NSAtrributedStringExtension.swift in Sources */,
 				A8DB9263268BACEE005F127D /* SceneDelegate.swift in Sources */,
 				CBC496FE268C1F2A006EFADC /* CovidConcernsViewController.swift in Sources */,
 				A8DB927E268BF54C005F127D /* LGBTQA+ViewController.swift in Sources */,
