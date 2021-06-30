@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		5B2D4F70268BC96300D64081 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D4F6F268BC96300D64081 /* HomePageViewController.swift */; };
-		5BB48B79268CE56C00E945FC /* Comfortaa-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BB48B74268CE56C00E945FC /* Comfortaa-Bold.ttf */; };
-		5BB48B7A268CE56C00E945FC /* Comfortaa-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BB48B75268CE56C00E945FC /* Comfortaa-Light.ttf */; };
-		5BB48B7B268CE56C00E945FC /* Comfortaa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BB48B76268CE56C00E945FC /* Comfortaa-Regular.ttf */; };
-		5BB48B7C268CE56C00E945FC /* Comfortaa-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BB48B77268CE56C00E945FC /* Comfortaa-Medium.ttf */; };
-		5BB48B7D268CE56C00E945FC /* Comfortaa-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BB48B78268CE56C00E945FC /* Comfortaa-SemiBold.ttf */; };
+		5BB48BBF268CEF1900E945FC /* Comfortaa in Resources */ = {isa = PBXBuildFile; fileRef = 5BB48BBE268CEF1900E945FC /* Comfortaa */; };
+		5BB48BCD268CEFDE00E945FC /* Comfortaa-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BB48BCC268CEFB700E945FC /* Comfortaa-Bold.ttf */; };
+		5BB48BCF268CEFE500E945FC /* Comfortaa-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BB48BCB268CEFB700E945FC /* Comfortaa-Light.ttf */; };
+		5BB48BD1268CEFE700E945FC /* Comfortaa-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BB48BCA268CEFB700E945FC /* Comfortaa-Medium.ttf */; };
+		5BB48BD3268CEFEA00E945FC /* Comfortaa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BB48BC8268CEFB700E945FC /* Comfortaa-Regular.ttf */; };
+		5BB48BD5268CEFEC00E945FC /* Comfortaa-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BB48BC9268CEFB700E945FC /* Comfortaa-SemiBold.ttf */; };
 		A8DB9261268BACEE005F127D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB9260268BACEE005F127D /* AppDelegate.swift */; };
 		A8DB9263268BACEE005F127D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB9262268BACEE005F127D /* SceneDelegate.swift */; };
 		A8DB9265268BACEE005F127D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB9264268BACEE005F127D /* ViewController.swift */; };
@@ -21,7 +22,6 @@
 		A8DB926D268BACF0005F127D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8DB926C268BACF0005F127D /* Assets.xcassets */; };
 		A8DB9270268BACF0005F127D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8DB926E268BACF0005F127D /* LaunchScreen.storyboard */; };
 		A8DB927E268BF54C005F127D /* LGBTQA+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB927D268BF54C005F127D /* LGBTQA+ViewController.swift */; };
-		A8E382CA268C2393007EDE08 /* Comfortaa in Resources */ = {isa = PBXBuildFile; fileRef = A8E382C9268C2392007EDE08 /* Comfortaa */; };
 		CBC496FA268C1C6D006EFADC /* StudentPressuresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC496F9268C1C6D006EFADC /* StudentPressuresViewController.swift */; };
 		CBC496FC268C1D20006EFADC /* SocialJusticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC496FB268C1D20006EFADC /* SocialJusticeViewController.swift */; };
 		CBC496FE268C1F2A006EFADC /* CovidConcernsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC496FD268C1F2A006EFADC /* CovidConcernsViewController.swift */; };
@@ -29,11 +29,12 @@
 
 /* Begin PBXFileReference section */
 		5B2D4F6F268BC96300D64081 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
-		5BB48B74268CE56C00E945FC /* Comfortaa-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Bold.ttf"; path = "../../../Downloads/Comfortaa/static/Comfortaa-Bold.ttf"; sourceTree = "<group>"; };
-		5BB48B75268CE56C00E945FC /* Comfortaa-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Light.ttf"; path = "../../../Downloads/Comfortaa/static/Comfortaa-Light.ttf"; sourceTree = "<group>"; };
-		5BB48B76268CE56C00E945FC /* Comfortaa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Regular.ttf"; path = "../../../Downloads/Comfortaa/static/Comfortaa-Regular.ttf"; sourceTree = "<group>"; };
-		5BB48B77268CE56C00E945FC /* Comfortaa-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Medium.ttf"; path = "../../../Downloads/Comfortaa/static/Comfortaa-Medium.ttf"; sourceTree = "<group>"; };
-		5BB48B78268CE56C00E945FC /* Comfortaa-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-SemiBold.ttf"; path = "../../../Downloads/Comfortaa/static/Comfortaa-SemiBold.ttf"; sourceTree = "<group>"; };
+		5BB48BBE268CEF1900E945FC /* Comfortaa */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Comfortaa; sourceTree = "<group>"; };
+		5BB48BC8268CEFB700E945FC /* Comfortaa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Regular.ttf"; sourceTree = "<group>"; };
+		5BB48BC9268CEFB700E945FC /* Comfortaa-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-SemiBold.ttf"; sourceTree = "<group>"; };
+		5BB48BCA268CEFB700E945FC /* Comfortaa-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Medium.ttf"; sourceTree = "<group>"; };
+		5BB48BCB268CEFB700E945FC /* Comfortaa-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Light.ttf"; sourceTree = "<group>"; };
+		5BB48BCC268CEFB700E945FC /* Comfortaa-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Bold.ttf"; sourceTree = "<group>"; };
 		A8DB925D268BACEE005F127D /* mindful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mindful.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8DB9260268BACEE005F127D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8DB9262268BACEE005F127D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +45,6 @@
 		A8DB926F268BACF0005F127D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8DB9271268BACF0005F127D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8DB927D268BF54C005F127D /* LGBTQA+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LGBTQA+ViewController.swift"; sourceTree = "<group>"; };
-		A8E382C9268C2392007EDE08 /* Comfortaa */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Comfortaa; path = ../../../Downloads/Comfortaa; sourceTree = "<group>"; };
 		CBC496F9268C1C6D006EFADC /* StudentPressuresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentPressuresViewController.swift; sourceTree = "<group>"; };
 		CBC496FB268C1D20006EFADC /* SocialJusticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialJusticeViewController.swift; sourceTree = "<group>"; };
 		CBC496FD268C1F2A006EFADC /* CovidConcernsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidConcernsViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +80,7 @@
 		A8DB925F268BACEE005F127D /* mindful */ = {
 			isa = PBXGroup;
 			children = (
+				5BB48BBE268CEF1900E945FC /* Comfortaa */,
 				A8DB9260268BACEE005F127D /* AppDelegate.swift */,
 				A8DB9262268BACEE005F127D /* SceneDelegate.swift */,
 				A8DB9264268BACEE005F127D /* ViewController.swift */,
@@ -89,16 +90,15 @@
 				A8DB9271268BACF0005F127D /* Info.plist */,
 				A8DB9269268BACEE005F127D /* mindful.xcdatamodeld */,
 				5B2D4F6F268BC96300D64081 /* HomePageViewController.swift */,
-				5BB48B74268CE56C00E945FC /* Comfortaa-Bold.ttf */,
-				5BB48B75268CE56C00E945FC /* Comfortaa-Light.ttf */,
-				5BB48B77268CE56C00E945FC /* Comfortaa-Medium.ttf */,
-				5BB48B76268CE56C00E945FC /* Comfortaa-Regular.ttf */,
-				5BB48B78268CE56C00E945FC /* Comfortaa-SemiBold.ttf */,
-				A8E382C9268C2392007EDE08 /* Comfortaa */,
 				A8DB927D268BF54C005F127D /* LGBTQA+ViewController.swift */,
 				CBC496F9268C1C6D006EFADC /* StudentPressuresViewController.swift */,
 				CBC496FB268C1D20006EFADC /* SocialJusticeViewController.swift */,
 				CBC496FD268C1F2A006EFADC /* CovidConcernsViewController.swift */,
+				5BB48BCC268CEFB700E945FC /* Comfortaa-Bold.ttf */,
+				5BB48BCB268CEFB700E945FC /* Comfortaa-Light.ttf */,
+				5BB48BCA268CEFB700E945FC /* Comfortaa-Medium.ttf */,
+				5BB48BC8268CEFB700E945FC /* Comfortaa-Regular.ttf */,
+				5BB48BC9268CEFB700E945FC /* Comfortaa-SemiBold.ttf */,
 			);
 			path = mindful;
 			sourceTree = "<group>";
@@ -161,14 +161,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8DB9270268BACF0005F127D /* LaunchScreen.storyboard in Resources */,
+				5BB48BBF268CEF1900E945FC /* Comfortaa in Resources */,
+				5BB48BD5268CEFEC00E945FC /* Comfortaa-SemiBold.ttf in Resources */,
+				5BB48BD1268CEFE700E945FC /* Comfortaa-Medium.ttf in Resources */,
+				5BB48BCD268CEFDE00E945FC /* Comfortaa-Bold.ttf in Resources */,
+				5BB48BD3268CEFEA00E945FC /* Comfortaa-Regular.ttf in Resources */,
 				A8DB926D268BACF0005F127D /* Assets.xcassets in Resources */,
-				5BB48B7D268CE56C00E945FC /* Comfortaa-SemiBold.ttf in Resources */,
-				5BB48B7C268CE56C00E945FC /* Comfortaa-Medium.ttf in Resources */,
-				5BB48B79268CE56C00E945FC /* Comfortaa-Bold.ttf in Resources */,
-				5BB48B7B268CE56C00E945FC /* Comfortaa-Regular.ttf in Resources */,
+				5BB48BCF268CEFE500E945FC /* Comfortaa-Light.ttf in Resources */,
 				A8DB9268268BACEE005F127D /* Main.storyboard in Resources */,
-				5BB48B7A268CE56C00E945FC /* Comfortaa-Light.ttf in Resources */,
-				A8E382CA268C2393007EDE08 /* Comfortaa in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

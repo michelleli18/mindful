@@ -10,7 +10,7 @@
         <array key="Comfortaa-Bold.ttf">
             <string>Comfortaa-Bold</string>
         </array>
-        <array key="Comfortaa-Regular.ttf">
+        <array key="Comfortaa-VariableFont_wght.ttf">
             <string>Comfortaa-Regular</string>
         </array>
     </customFonts>
@@ -417,10 +417,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="rU6-Aj-3zh"/>
-        <segue reference="9Yb-oq-vVr"/>
-        <segue reference="xV6-ax-boc"/>
-        <segue reference="gYP-rx-8Dt"/>
+        <segue reference="IPv-x0-Xw0"/>
+        <segue reference="D80-ue-bca"/>
+        <segue reference="1Vn-en-FbZ"/>
+        <segue reference="KPT-ra-SjX"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="home button" width="48" height="48"/>
