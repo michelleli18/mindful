@@ -21,7 +21,7 @@ class LGBTQA_ViewController: UIViewController {
         
     }
     
-
+  
     @IBAction func homeButtonPressed(_ sender: Any) {
     }
     
