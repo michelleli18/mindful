@@ -12,7 +12,9 @@ class LGBTQA_ViewController: UIViewController {
     @IBOutlet weak var moreInfoText: UIButton!
     
     var websites = ["https://www.youtube.com/watch?v=HNOOeRVq9Xw", "https://www.google.com/?client=safari"]
-    var websiteIndex = 0
+    var buttonNames = ["Click here to learn more about _", "Click here to learn more about __"]
+    var descriptions = ["", ""]
+    var index = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,11 +29,11 @@ class LGBTQA_ViewController: UIViewController {
     }
 
     @IBAction func moreInfoPressed(_ sender: UIButton) {
-        UIApplication.shared.open(URL(string: websites[websiteIndex])! as URL, options: [:], completionHandler: nil)
+        UIApplication.shared.open(URL(string: websites[index])! as URL, options: [:], completionHandler: nil)
     }
     @IBAction func nextResourcePressed(_ sender: UIButton) {
-        websiteIndex += 1
-        websiteIndex = websiteIndex % websites.count
-        //moreInfoText.setTitle("testing", for: .normal)
+        index += 1
+        index = index % websites.count
+        moreInfoText.setTitle(buttonNames[index], for: .normal)
     }
 }
