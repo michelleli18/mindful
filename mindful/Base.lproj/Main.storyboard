@@ -90,7 +90,7 @@
                                 <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GSu-iy-rhr">
-                                <rect key="frame" x="37" y="222" width="150" height="150"/>
+                                <rect key="frame" x="37" y="301" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="20"/>
@@ -102,7 +102,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="eEP-WS-Jg0">
-                                <rect key="frame" x="204" y="221" width="150" height="150"/>
+                                <rect key="frame" x="204" y="300" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="20"/>
@@ -114,7 +114,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="iI5-du-23N">
-                                <rect key="frame" x="204" y="391" width="150" height="150"/>
+                                <rect key="frame" x="37" y="472" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="20"/>
@@ -126,7 +126,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Xi1-WU-Arh">
-                                <rect key="frame" x="37" y="391" width="150" height="150"/>
+                                <rect key="frame" x="204" y="472" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="20"/>
@@ -212,8 +212,8 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c86-Y8-eAS">
                                 <rect key="frame" x="30" y="215" width="344" height="369"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">People who identify as part of the black, AAPI, or another marginalized community often face additional challenges due to systemic racism and hate. This can lead to mental pressures and strains that can be difficult to address. More specifically, of the AAPI community in the United States, 15% have reported struggling with a mental illness in the past year. This is over 2.9 million people in total. Direct traumatic events such as microaggressions and verbal attacks can be huge stressors in one’s life and should not be overlooked. Check out the resources listed below to find additional information and ways to help you cope in the future!
-</mutableString>
+                                <string key="text">People who identify as part of the black, AAPI, or another marginalized community often face additional challenges due to systemic racism and hate. This can lead to mental pressures and strains that can be difficult to address. More specifically, of the AAPI community in the United States, 15% have reported struggling with a mental illness in the past year. This is over 2.9 million people in total. Direct traumatic events such as microaggressions and verbal attacks can be huge stressors in one’s life and should not be overlooked. Check out the resources listed below to find additional information and ways to help you cope in the future!
+</string>
                                 <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -282,8 +282,8 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DW6-fF-9YJ">
                                 <rect key="frame" x="16" y="235" width="358" height="408"/>
-                                <mutableString key="text">During a crisis such as the COVID-19 pandemic, it is common for everyone to experience increased levels of distress and anxiety as students adapt to this unexpected situation. Over 90% of college students have experienced negative mental health symptoms due to the pandemic. Nearly half of students struggle with isolation, anxiety, and a lack of focus. The pandemic has only exacerbated the academic pressures students face on a daily basis. It is essential to take steps to maintain physical, emotional and mental health, while remaining connected to a larger sense of community. Confronting stress will make you, the people you care about and your community stronger. 
-</mutableString>
+                                <string key="text">During a crisis such as the COVID-19 pandemic, it is common for everyone to experience increased levels of distress and anxiety as students adapt to this unexpected situation. Over 90% of college students have experienced negative mental health symptoms due to the pandemic. Nearly half of students struggle with isolation, anxiety, and a lack of focus. The pandemic has only exacerbated the academic pressures students face on a daily basis. It is essential to take steps to maintain physical, emotional and mental health, while remaining connected to a larger sense of community. Confronting stress will make you, the people you care about and your community stronger. 
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -373,8 +373,8 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CfJ-7J-d52">
                                 <rect key="frame" x="43" y="211" width="323" height="369"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Discrimination against people who identify as LGBTQIA+ can impact one’s mental health and increase rates of anxiety and depression. According to a CDC survey in 2016, 60% of youth in the LGBTQIA+ community reported that they are feeling sad or depressed on a daily basis. Facing unsupportive family or friends can be a major stressor that some people may experience on a daily basis. Unfortunately, the stigma against mental health has left many LGBTQIA+ youth feeling helpless and struggling to find any hope. Click any of the links below to find resources and supportive communities for individuals of all walks of life!
-</mutableString>
+                                <string key="text">Discrimination against people who identify as LGBTQIA+ can impact one’s mental health and increase rates of anxiety and depression. According to a CDC survey in 2016, 60% of youth in the LGBTQIA+ community reported that they are feeling sad or depressed on a daily basis. Facing unsupportive family or friends can be a major stressor that some people may experience on a daily basis. Unfortunately, the stigma against mental health has left many LGBTQIA+ youth feeling helpless and struggling to find any hope. Click any of the links below to find resources and supportive communities for individuals of all walks of life!
+</string>
                                 <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -453,7 +453,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OL2-CJ-cBI">
                                 <rect key="frame" x="31" y="217" width="343" height="302"/>
-                                <mutableString key="text">  Academic pressure on young adults has reached high levels. The stress of getting into the best college, maintaining high grades, and landing the best internships - all in preparation for success in the workplace - takes an enormous toll on young adult mental health. 87% of students surveyed in 2019 by the American College Health Association said they had felt overwhelmed at some point during the school year by everything they had to do, and 85% reported feeling mentally exhausted. Check out the resources below to find positive approaches to academic stress management. </mutableString>
+                                <string key="text">  Academic pressure on young adults has reached high levels. The stress of getting into the best college, maintaining high grades, and landing the best internships - all in preparation for success in the workplace - takes an enormous toll on young adult mental health. 87% of students surveyed in 2019 by the American College Health Association said they had felt overwhelmed at some point during the school year by everything they had to do, and 85% reported feeling mentally exhausted. Check out the resources below to find positive approaches to academic stress management. </string>
                                 <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -480,9 +480,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="1Qw-tE-eja"/>
-        <segue reference="9Yb-oq-vVr"/>
-        <segue reference="xV6-ax-boc"/>
+        <segue reference="IPv-x0-Xw0"/>
+        <segue reference="D80-ue-bca"/>
+        <segue reference="1Vn-en-FbZ"/>
         <segue reference="gYP-rx-8Dt"/>
     </inferredMetricsTieBreakers>
     <resources>
