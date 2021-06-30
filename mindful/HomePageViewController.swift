@@ -11,7 +11,6 @@ class HomePageViewController: UIViewController {
 
     @IBOutlet weak var lgbtqiaButton: UIButton!
     @IBOutlet weak var studentPressuresButton: UIButton!
-    @IBOutlet weak var traumaButton: UIButton!
     @IBOutlet weak var blmsahButton: UIButton!
     @IBOutlet weak var covidButton: UIButton!
     
@@ -26,10 +25,6 @@ class HomePageViewController: UIViewController {
         studentPressuresButton.layer.cornerRadius = 12
         studentPressuresButton.layer.borderWidth = 5
         studentPressuresButton.layer.borderColor = UIColor(red: 0, green: 61/255, blue: 57/255, alpha: 1).cgColor
-        
-        traumaButton.layer.cornerRadius = 12
-        traumaButton.layer.borderWidth = 5
-        traumaButton.layer.borderColor = UIColor(red: 0, green: 61/255, blue: 57/255, alpha: 1).cgColor
         
         blmsahButton.layer.cornerRadius = 12
         blmsahButton.layer.borderWidth = 5

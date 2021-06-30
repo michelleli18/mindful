@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		5B2D4F70268BC96300D64081 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D4F6F268BC96300D64081 /* HomePageViewController.swift */; };
+		5BB48B79268CE56C00E945FC /* Comfortaa-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BB48B74268CE56C00E945FC /* Comfortaa-Bold.ttf */; };
+		5BB48B7A268CE56C00E945FC /* Comfortaa-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BB48B75268CE56C00E945FC /* Comfortaa-Light.ttf */; };
+		5BB48B7B268CE56C00E945FC /* Comfortaa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BB48B76268CE56C00E945FC /* Comfortaa-Regular.ttf */; };
+		5BB48B7C268CE56C00E945FC /* Comfortaa-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BB48B77268CE56C00E945FC /* Comfortaa-Medium.ttf */; };
+		5BB48B7D268CE56C00E945FC /* Comfortaa-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BB48B78268CE56C00E945FC /* Comfortaa-SemiBold.ttf */; };
 		A8DB9261268BACEE005F127D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB9260268BACEE005F127D /* AppDelegate.swift */; };
 		A8DB9263268BACEE005F127D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB9262268BACEE005F127D /* SceneDelegate.swift */; };
 		A8DB9265268BACEE005F127D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB9264268BACEE005F127D /* ViewController.swift */; };
@@ -24,6 +29,11 @@
 
 /* Begin PBXFileReference section */
 		5B2D4F6F268BC96300D64081 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		5BB48B74268CE56C00E945FC /* Comfortaa-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Bold.ttf"; path = "../../../Downloads/Comfortaa/static/Comfortaa-Bold.ttf"; sourceTree = "<group>"; };
+		5BB48B75268CE56C00E945FC /* Comfortaa-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Light.ttf"; path = "../../../Downloads/Comfortaa/static/Comfortaa-Light.ttf"; sourceTree = "<group>"; };
+		5BB48B76268CE56C00E945FC /* Comfortaa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Regular.ttf"; path = "../../../Downloads/Comfortaa/static/Comfortaa-Regular.ttf"; sourceTree = "<group>"; };
+		5BB48B77268CE56C00E945FC /* Comfortaa-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Medium.ttf"; path = "../../../Downloads/Comfortaa/static/Comfortaa-Medium.ttf"; sourceTree = "<group>"; };
+		5BB48B78268CE56C00E945FC /* Comfortaa-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-SemiBold.ttf"; path = "../../../Downloads/Comfortaa/static/Comfortaa-SemiBold.ttf"; sourceTree = "<group>"; };
 		A8DB925D268BACEE005F127D /* mindful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mindful.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8DB9260268BACEE005F127D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8DB9262268BACEE005F127D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +89,11 @@
 				A8DB9271268BACF0005F127D /* Info.plist */,
 				A8DB9269268BACEE005F127D /* mindful.xcdatamodeld */,
 				5B2D4F6F268BC96300D64081 /* HomePageViewController.swift */,
+				5BB48B74268CE56C00E945FC /* Comfortaa-Bold.ttf */,
+				5BB48B75268CE56C00E945FC /* Comfortaa-Light.ttf */,
+				5BB48B77268CE56C00E945FC /* Comfortaa-Medium.ttf */,
+				5BB48B76268CE56C00E945FC /* Comfortaa-Regular.ttf */,
+				5BB48B78268CE56C00E945FC /* Comfortaa-SemiBold.ttf */,
 				A8E382C9268C2392007EDE08 /* Comfortaa */,
 				A8DB927D268BF54C005F127D /* LGBTQA+ViewController.swift */,
 				CBC496F9268C1C6D006EFADC /* StudentPressuresViewController.swift */,
@@ -147,7 +162,12 @@
 			files = (
 				A8DB9270268BACF0005F127D /* LaunchScreen.storyboard in Resources */,
 				A8DB926D268BACF0005F127D /* Assets.xcassets in Resources */,
+				5BB48B7D268CE56C00E945FC /* Comfortaa-SemiBold.ttf in Resources */,
+				5BB48B7C268CE56C00E945FC /* Comfortaa-Medium.ttf in Resources */,
+				5BB48B79268CE56C00E945FC /* Comfortaa-Bold.ttf in Resources */,
+				5BB48B7B268CE56C00E945FC /* Comfortaa-Regular.ttf in Resources */,
 				A8DB9268268BACEE005F127D /* Main.storyboard in Resources */,
+				5BB48B7A268CE56C00E945FC /* Comfortaa-Light.ttf in Resources */,
 				A8E382CA268C2393007EDE08 /* Comfortaa in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
