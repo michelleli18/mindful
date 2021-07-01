@@ -218,6 +218,35 @@
                                 <color key="textColor" red="0.5" green="0.4450273394" blue="0.40134994219999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TfH-xB-jrd">
+                                <rect key="frame" x="7" y="660" width="390" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Click here to learn more about APA">
+                                    <color key="titleColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="moreInfoPressed:" destination="71C-r1-Slx" eventType="touchUpInside" id="DxL-qg-dA2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4uG-ku-dMn">
+                                <rect key="frame" x="168" y="692" width="68" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="0.027943318710000001" green="0.27145153280000001" blue="0.2550310194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextResourcePressed:" destination="71C-r1-Slx" eventType="touchUpInside" id="bcl-P9-GCc"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The American Psychological Association (APA)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MZd-Ue-hnj">
+                                <rect key="frame" x="23" y="563" width="358" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="30"/>
+                                <color key="textColor" red="0.027943318710000001" green="0.27145153280000001" blue="0.2550310194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eJe-FF-VeB"/>
                         <color key="backgroundColor" red="0.9777798057" green="0.85991555450000001" blue="0.78224420549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -231,6 +260,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="D2x-rR-HAA"/>
+                    <connections>
+                        <outlet property="moreInfoButtonText" destination="TfH-xB-jrd" id="Xvy-2J-q8O"/>
+                        <outlet property="nextButton" destination="4uG-ku-dMn" id="ZNq-Cp-77V"/>
+                        <outlet property="resourcesName" destination="MZd-Ue-hnj" id="L9F-5Z-h2g"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ga2-2j-nmo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -529,10 +563,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="1Qw-tE-eja"/>
+        <segue reference="rU6-Aj-3zh"/>
         <segue reference="9Yb-oq-vVr"/>
         <segue reference="Va3-G0-hoY"/>
-        <segue reference="jlL-I1-kxV"/>
+        <segue reference="CA2-MK-sdm"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="home button" width="48" height="48"/>
