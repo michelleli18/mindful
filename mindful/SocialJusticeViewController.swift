@@ -8,7 +8,10 @@
 import UIKit
 
 class SocialJusticeViewController: UIViewController {
-
+    @IBOutlet weak var resourcesName: UILabel!
+    @IBOutlet weak var moreInfoButtonText: UIButton!
+    @IBOutlet weak var nextButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
