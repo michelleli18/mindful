@@ -33,6 +33,31 @@ class CovidConcernsViewController: UIViewController {
     }
     
     @IBAction func nextButtonPressed(_ sender: UIButton) {
+        
+        let firstIndex = index
+        var secondIndex : Int
+        if index + 1 != websites.count {
+            secondIndex = index + 1
+        } else {
+            secondIndex = 0
+        }
+        
+        UIView.transition(with: resourcesName,
+                          duration: 0.45,
+                       options: .transitionCrossDissolve,
+                    animations: { [weak self] in
+                        self?.resourcesName.text = (arc4random() % 2 == 0) ? self?.titles[firstIndex] : " "
+                 }, completion: nil)
+        
+        UIView.transition(with: resourcesName,
+                          duration: 0.45,
+                       options: .transitionCrossDissolve,
+                    animations: { [weak self] in
+                        self?.resourcesName.text = (arc4random() % 2 == 0) ? " " : self?.titles[secondIndex]
+                 }, completion: nil)
+        
+        
+        
         index += 1
         index = index % websites.count
         moreInfoButtonText.setTitle(buttonNames[index], for: .normal)

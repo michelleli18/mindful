@@ -15,7 +15,7 @@ class LGBTQA_ViewController: UIViewController {
     
     var websites = ["https://www.apa.org/pi/lgbt/resources/lgbt-health", "https://www.thetrevorproject.org/resources/", "http://www.glbtnationalhelpcenter.org/"]
     var buttonNames = ["Click here to learn more about APA", "Click here to learn more about The Treavor Project", "Click here to learn more about the LGBT national health center"]
-    var titles = ["The American Psychological Association (APA)", "The Trevor Project", "LGBT National Health Center"]
+    var titles = ["The American Psychological Association (APA)", "\nThe Trevor Project", "\nLGBT National Health Center"]
     var index = 0
     
     override func viewDidLoad() {
@@ -24,6 +24,8 @@ class LGBTQA_ViewController: UIViewController {
         nextButton.layer.cornerRadius = 12
         nextButton.layer.borderWidth = 2
         nextButton.layer.borderColor = UIColor(red: 0, green: 61/255, blue: 57/255, alpha: 1).cgColor
+        
+        
     }
     
     @IBAction func moreInfoPressed(_ sender: UIButton) {
@@ -39,14 +41,14 @@ class LGBTQA_ViewController: UIViewController {
         }
         
         UIView.transition(with: titleText,
-                          duration: 0.2,
+                          duration: 0.45,
                        options: .transitionCrossDissolve,
                     animations: { [weak self] in
                         self?.titleText.text = (arc4random() % 2 == 0) ? self?.titles[firstIndex] : " "
                  }, completion: nil)
         
         UIView.transition(with: titleText,
-                          duration: 0.2,
+                          duration: 0.45,
                        options: .transitionCrossDissolve,
                     animations: { [weak self] in
                         self?.titleText.text = (arc4random() % 2 == 0) ? " " : self?.titles[secondIndex]

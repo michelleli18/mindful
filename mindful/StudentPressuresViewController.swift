@@ -19,7 +19,7 @@ class StudentPressuresViewController: UIViewController {
         "https://www.stopitnow.org/ohc-content/crisis-hotlines-for-youth"
         ]
     var buttonNames = ["Click here to learn more about mental health for college students", "Click here to learn more about self care practices", "Click here to learn more about Anxiety and Depression Association of America", "Click here to learn more about the Crisis hotlines for youth"]
-    var titles = ["Symptoms and signs of common mental health challenges students face", "6 Daily Self-Care Practices for Young Adults", "Anxiety and Depression Association of America", "Crisis hotlines for youth"]
+    var titles = ["Symptoms and signs of common mental health challenges students face", "\n6 Daily Self-Care Practices for Young Adults", "\nAnxiety and Depression Association of America", "\nCrisis hotlines for youth"]
     var index = 0
     
     override func viewDidLoad() {
@@ -34,6 +34,30 @@ class StudentPressuresViewController: UIViewController {
 
     
     @IBAction func nextButtonPressed(_ sender: UIButton) {
+        
+        let firstIndex = index
+        var secondIndex : Int
+        if index + 1 != websites.count {
+            secondIndex = index + 1
+        } else {
+            secondIndex = 0
+        }
+        
+        UIView.transition(with: resourcesName,
+                          duration: 0.45,
+                       options: .transitionCrossDissolve,
+                    animations: { [weak self] in
+                        self?.resourcesName.text = (arc4random() % 2 == 0) ? self?.titles[firstIndex] : " "
+                 }, completion: nil)
+        
+        UIView.transition(with: resourcesName,
+                          duration: 0.45,
+                       options: .transitionCrossDissolve,
+                    animations: { [weak self] in
+                        self?.resourcesName.text = (arc4random() % 2 == 0) ? " " : self?.titles[secondIndex]
+                 }, completion: nil)
+        
+        
         index += 1
         index = index % websites.count
         moreInfoButtonText.setTitle(buttonNames[index], for: .normal)
