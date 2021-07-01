@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -10,7 +10,7 @@
         <array key="Comfortaa-Bold.ttf">
             <string>Comfortaa-Bold</string>
         </array>
-        <array key="Comfortaa-VariableFont_wght.ttf">
+        <array key="Comfortaa-Regular.ttf">
             <string>Comfortaa-Regular</string>
         </array>
     </customFonts>
@@ -226,6 +226,7 @@
                                     <color key="titleColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="moreInfoPressed:" destination="fti-RF-hJk" eventType="touchUpInside" id="0EY-fT-Tqq"/>
                                     <action selector="moreInfoPressed:" destination="71C-r1-Slx" eventType="touchUpInside" id="DxL-qg-dA2"/>
                                 </connections>
                             </button>
@@ -237,6 +238,7 @@
                                     <color key="titleColor" red="0.027943318710000001" green="0.27145153280000001" blue="0.2550310194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="nextButtonPressed:" destination="fti-RF-hJk" eventType="touchUpInside" id="Lxw-Md-Oap"/>
                                     <action selector="nextResourcePressed:" destination="71C-r1-Slx" eventType="touchUpInside" id="bcl-P9-GCc"/>
                                 </connections>
                             </button>
