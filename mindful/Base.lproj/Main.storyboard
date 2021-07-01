@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -10,7 +10,7 @@
         <array key="Comfortaa-Bold.ttf">
             <string>Comfortaa-Bold</string>
         </array>
-        <array key="Comfortaa-Regular.ttf">
+        <array key="Comfortaa-VariableFont_wght.ttf">
             <string>Comfortaa-Regular</string>
         </array>
     </customFonts>
@@ -202,8 +202,8 @@
                                     <segue destination="UgI-dV-EIZ" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="f6a-cd-GD7"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Social Justice" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rp1-6y-w17">
-                                <rect key="frame" x="30" y="74" width="331" height="43.666666666666657"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Social Justice" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rp1-6y-w17">
+                                <rect key="frame" x="10" y="74" width="370" height="43.666666666666657"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="39"/>
                                 <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -215,8 +215,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="INFO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqJ-LX-S5t">
-                                <rect key="frame" x="162" y="137.66666666666666" width="67" height="28"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INFO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqJ-LX-S5t">
+                                <rect key="frame" x="10" y="137.66666666666666" width="370" height="28"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="25"/>
                                 <color key="textColor" red="0.5" green="0.4450273394" blue="0.40134994219999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -235,7 +235,7 @@
                                 <color key="textColor" red="0.5" green="0.4450273394" blue="0.40134994219999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TfH-xB-jrd">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TfH-xB-jrd">
                                 <rect key="frame" x="0.0" y="647.66666666666663" width="390" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Click here to learn more about BEAM">
@@ -279,14 +279,20 @@
                             <constraint firstItem="eSN-nH-ETD" firstAttribute="centerX" secondItem="DOp-cX-pYg" secondAttribute="centerX" constant="140" id="Wel-kK-O4e"/>
                             <constraint firstItem="eJe-FF-VeB" firstAttribute="trailing" secondItem="MZd-Ue-hnj" secondAttribute="trailing" constant="10" id="WwJ-8B-HKN"/>
                             <constraint firstItem="c86-Y8-eAS" firstAttribute="top" secondItem="hqJ-LX-S5t" secondAttribute="bottom" constant="10" id="a3K-80-G3x"/>
+                            <constraint firstItem="hqJ-LX-S5t" firstAttribute="leading" secondItem="eJe-FF-VeB" secondAttribute="leading" constant="10" id="bdT-L8-fGg"/>
                             <constraint firstItem="MZd-Ue-hnj" firstAttribute="top" secondItem="uha-Rb-JSf" secondAttribute="bottom" constant="10" id="dKt-2f-ADj"/>
+                            <constraint firstItem="eJe-FF-VeB" firstAttribute="trailing" secondItem="hqJ-LX-S5t" secondAttribute="trailing" constant="10" id="fbI-kp-u8S"/>
                             <constraint firstItem="uha-Rb-JSf" firstAttribute="leading" secondItem="eJe-FF-VeB" secondAttribute="leading" constant="10" id="kNS-vM-Ana"/>
+                            <constraint firstItem="Rp1-6y-w17" firstAttribute="leading" secondItem="eJe-FF-VeB" secondAttribute="leading" constant="10" id="kYX-Vc-z7X"/>
+                            <constraint firstItem="TfH-xB-jrd" firstAttribute="leading" secondItem="eJe-FF-VeB" secondAttribute="leading" id="mNZ-1d-B75"/>
                             <constraint firstItem="1TL-Jt-oCQ" firstAttribute="centerX" secondItem="DOp-cX-pYg" secondAttribute="centerX" id="ovn-iM-EQj"/>
                             <constraint firstItem="4uG-ku-dMn" firstAttribute="top" secondItem="TfH-xB-jrd" secondAttribute="bottom" constant="10" id="q7v-SA-eDq"/>
                             <constraint firstItem="1TL-Jt-oCQ" firstAttribute="centerY" secondItem="DOp-cX-pYg" secondAttribute="centerY" constant="318" id="qES-v5-RcM"/>
+                            <constraint firstItem="eJe-FF-VeB" firstAttribute="trailing" secondItem="Rp1-6y-w17" secondAttribute="trailing" constant="10" id="tCl-sV-lkv"/>
                             <constraint firstItem="4uG-ku-dMn" firstAttribute="leading" secondItem="JFW-fq-97y" secondAttribute="trailing" constant="82" id="v8R-TW-Wyq"/>
                             <constraint firstItem="JFW-fq-97y" firstAttribute="centerX" secondItem="DOp-cX-pYg" secondAttribute="centerX" constant="-140" id="vIs-nT-QfW"/>
                             <constraint firstItem="Rp1-6y-w17" firstAttribute="top" secondItem="eJe-FF-VeB" secondAttribute="top" constant="30" id="wSg-ba-Rk7"/>
+                            <constraint firstItem="TfH-xB-jrd" firstAttribute="trailing" secondItem="eJe-FF-VeB" secondAttribute="trailing" id="x7W-7H-ah8"/>
                             <constraint firstItem="eSN-nH-ETD" firstAttribute="centerY" secondItem="DOp-cX-pYg" secondAttribute="centerY" constant="318" id="z6B-Fi-VUM"/>
                         </constraints>
                     </view>
@@ -609,7 +615,7 @@
                                     <action selector="moreInfoPressed:" destination="71C-r1-Slx" eventType="touchUpInside" id="EM1-00-5zc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1qq-g9-4o1">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1qq-g9-4o1">
                                 <rect key="frame" x="161" y="662.33333333333337" width="68" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Next">
@@ -644,6 +650,7 @@
                             <constraint firstItem="5rp-yI-UiQ" firstAttribute="centerY" secondItem="u6A-ya-yw4" secondAttribute="centerY" constant="318" id="Xnv-SA-ond"/>
                             <constraint firstItem="NP3-pN-V4F" firstAttribute="leading" secondItem="1Yf-DD-KnH" secondAttribute="leading" constant="10" id="bqL-av-w5X"/>
                             <constraint firstItem="NP3-pN-V4F" firstAttribute="top" secondItem="OL2-CJ-cBI" secondAttribute="bottom" constant="20" id="cUY-qa-8Xl"/>
+                            <constraint firstItem="1qq-g9-4o1" firstAttribute="leading" secondItem="1Yf-DD-KnH" secondAttribute="leading" constant="161" id="fpj-YQ-4zp"/>
                             <constraint firstItem="1Yf-DD-KnH" firstAttribute="trailing" secondItem="hpx-tJ-pcc" secondAttribute="trailing" constant="10" id="gGh-jl-y6U"/>
                             <constraint firstItem="hpx-tJ-pcc" firstAttribute="leading" secondItem="1Yf-DD-KnH" secondAttribute="leading" constant="10" id="gcg-rN-K5M"/>
                             <constraint firstItem="8qc-E6-NDz" firstAttribute="centerY" secondItem="u6A-ya-yw4" secondAttribute="centerY" constant="318" id="h3l-vG-FVp"/>
@@ -651,6 +658,7 @@
                             <constraint firstItem="5rp-yI-UiQ" firstAttribute="centerX" secondItem="u6A-ya-yw4" secondAttribute="centerX" constant="-140" id="j2q-kF-7Ad"/>
                             <constraint firstItem="onZ-Uk-Z3h" firstAttribute="top" secondItem="hpx-tJ-pcc" secondAttribute="bottom" constant="10" id="kCq-rl-kNm"/>
                             <constraint firstItem="f6w-No-LWa" firstAttribute="centerY" secondItem="u6A-ya-yw4" secondAttribute="centerY" constant="318" id="oX1-4v-SFz"/>
+                            <constraint firstItem="1Yf-DD-KnH" firstAttribute="trailing" secondItem="1qq-g9-4o1" secondAttribute="trailing" constant="161" id="rcQ-EV-A4d"/>
                             <constraint firstItem="OL2-CJ-cBI" firstAttribute="top" secondItem="u2c-Gh-kD7" secondAttribute="bottom" constant="10" id="x3u-Fu-bCf"/>
                             <constraint firstItem="SAY-jf-LAe" firstAttribute="top" secondItem="1Yf-DD-KnH" secondAttribute="top" constant="30" id="xU4-1c-pxc"/>
                             <constraint firstItem="OL2-CJ-cBI" firstAttribute="leading" secondItem="1Yf-DD-KnH" secondAttribute="leading" constant="10" id="yKd-2e-0rQ"/>
@@ -674,7 +682,7 @@
         <segue reference="9Yb-oq-vVr"/>
         <segue reference="f6a-cd-GD7"/>
         <segue reference="Va3-G0-hoY"/>
-        <segue reference="J0r-Ld-1Pf"/>
+        <segue reference="CA2-MK-sdm"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="home button" width="48" height="48"/>
