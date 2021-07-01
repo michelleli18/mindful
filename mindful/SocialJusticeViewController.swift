@@ -37,5 +37,4 @@ class SocialJusticeViewController: UIViewController {
         resourcesName.text = titles[index]
         
     }
-
 }
