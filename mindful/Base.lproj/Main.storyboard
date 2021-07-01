@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -24,7 +24,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dn5-pv-ASr">
-                                <rect key="frame" x="127.66666666666669" y="642" width="135" height="12"/>
+                                <rect key="frame" x="114" y="642" width="162" height="12"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="12" id="4Nv-gk-xd3"/>
                                 </constraints>
@@ -348,10 +348,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yOK-pd-4U8">
-                                <rect key="frame" x="43" y="647" width="302" height="24"/>
+                                <rect key="frame" x="0.0" y="647" width="390" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                <state key="normal" title="Click here to learn more about the LGBT national health center">
+                                <state key="normal" title="Click here to learn more about APA">
                                     <color key="titleColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -384,7 +384,7 @@
                                 <color key="textColor" red="0.5" green="0.44502733941744105" blue="0.40134994216912689" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LGBT National Health Center" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EqZ-YH-iJ8">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The American Psychological Association (APA)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EqZ-YH-iJ8">
                                 <rect key="frame" x="16" y="550" width="358" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="30"/>
@@ -451,8 +451,9 @@
                                 <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OL2-CJ-cBI">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OL2-CJ-cBI">
                                 <rect key="frame" x="31" y="217" width="343" height="302"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">  Academic pressure on young adults has reached high levels. The stress of getting into the best college, maintaining high grades, and landing the best internships - all in preparation for success in the workplace - takes an enormous toll on young adult mental health. 87% of students surveyed in 2019 by the American College Health Association said they had felt overwhelmed at some point during the school year by everything they had to do, and 85% reported feeling mentally exhausted. Check out the resources below to find positive approaches to academic stress management. </string>
                                 <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="16"/>
                                 <nil key="textColor"/>
@@ -472,12 +473,41 @@
                                 <color key="textColor" red="0.5" green="0.4450273394" blue="0.40134994219999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="onZ-Uk-Z3h">
+                                <rect key="frame" x="0.0" y="646" width="390" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Click here to learn more about mental health for college students">
+                                    <color key="titleColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="moreInfoButtonPressed:" destination="67b-MN-Hgi" eventType="touchUpInside" id="8HL-p2-Fxt"/>
+                                    <action selector="moreInfoPressed:" destination="71C-r1-Slx" eventType="touchUpInside" id="EM1-00-5zc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1qq-g9-4o1">
+                                <rect key="frame" x="161" y="678" width="68" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="0.027943318710000001" green="0.27145153280000001" blue="0.2550310194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextButtonPressed:" destination="67b-MN-Hgi" eventType="touchUpInside" id="YcH-tu-nyx"/>
+                                    <action selector="nextResourcePressed:" destination="71C-r1-Slx" eventType="touchUpInside" id="gZd-gp-r8Y"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Symptoms and signs of common mental health challenges students face" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hpx-tJ-pcc">
+                                <rect key="frame" x="7" y="549" width="376" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="25"/>
+                                <color key="textColor" red="0.027943318710000001" green="0.27145153280000001" blue="0.2550310194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1Yf-DD-KnH"/>
                         <color key="backgroundColor" red="0.97254908080000002" green="0.86274516580000005" blue="0.78039217000000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="OL2-CJ-cBI" firstAttribute="leading" secondItem="1Yf-DD-KnH" secondAttribute="leading" constant="10" id="LF9-MB-QQK"/>
-                            <constraint firstAttribute="trailing" secondItem="OL2-CJ-cBI" secondAttribute="trailing" constant="10" id="Unf-wt-Xii"/>
                             <constraint firstItem="8qc-E6-NDz" firstAttribute="centerX" secondItem="u6A-ya-yw4" secondAttribute="centerX" constant="140" id="V9c-AH-cwj"/>
                             <constraint firstItem="5rp-yI-UiQ" firstAttribute="centerY" secondItem="u6A-ya-yw4" secondAttribute="centerY" constant="318" id="Xnv-SA-ond"/>
                             <constraint firstItem="8qc-E6-NDz" firstAttribute="centerY" secondItem="u6A-ya-yw4" secondAttribute="centerY" constant="318" id="h3l-vG-FVp"/>
@@ -487,6 +517,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="SiM-kC-VOr"/>
+                    <connections>
+                        <outlet property="moreInfoButtonText" destination="onZ-Uk-Z3h" id="6iq-xP-PV5"/>
+                        <outlet property="nextButton" destination="1qq-g9-4o1" id="fS0-ds-yCP"/>
+                        <outlet property="resourcesName" destination="hpx-tJ-pcc" id="c5f-kg-jf8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aBb-Ji-Sgb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -494,10 +529,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="f6a-cd-GD7"/>
         <segue reference="1Qw-tE-eja"/>
         <segue reference="9Yb-oq-vVr"/>
-        <segue reference="xV6-ax-boc"/>
+        <segue reference="Va3-G0-hoY"/>
         <segue reference="jlL-I1-kxV"/>
     </inferredMetricsTieBreakers>
     <resources>

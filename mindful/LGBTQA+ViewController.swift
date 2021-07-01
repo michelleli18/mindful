@@ -13,7 +13,7 @@ class LGBTQA_ViewController: UIViewController {
     @IBOutlet weak var titleText: UILabel!
     @IBOutlet weak var nextButton: UIButton!
     
-    var websites = ["https://www.apa.org/pi/lgbt/resources/lgbt-health", "https://www.google.com/?client=safari", "http://www.glbtnationalhelpcenter.org/ "]
+    var websites = ["https://www.apa.org/pi/lgbt/resources/lgbt-health", "https://www.thetrevorproject.org/resources/", "http://www.glbtnationalhelpcenter.org/"]
     var buttonNames = ["Click here to learn more about APA", "Click here to learn more about The Treavor Project", "Click here to learn more about the LGBT national health center"]
     var titles = ["The American Psychological Association (APA)", "The Trevor Project", "LGBT National Health Center"]
     var index = 0
