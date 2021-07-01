@@ -551,38 +551,33 @@
                                     <segue destination="fti-RF-hJk" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Va3-G0-hoY"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Student Pressures" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SAY-jf-LAe">
-                                <rect key="frame" x="15" y="53" width="359" height="130"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="50"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Student Pressures" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SAY-jf-LAe">
+                                <rect key="frame" x="10" y="74" width="370" height="87"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="39"/>
                                 <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OL2-CJ-cBI">
-                                <rect key="frame" x="31" y="217" width="343" height="302"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OL2-CJ-cBI">
+                                <rect key="frame" x="10" y="209.00000000000003" width="370" height="267.66666666666674"/>
                                 <string key="text">  Academic pressure on young adults has reached high levels. The stress of getting into the best college, maintaining high grades, and landing the best internships - all in preparation for success in the workplace - takes an enormous toll on young adult mental health. 87% of students surveyed in 2019 by the American College Health Association said they had felt overwhelmed at some point during the school year by everything they had to do, and 85% reported feeling mentally exhausted. Check out the resources below to find positive approaches to academic stress management. </string>
                                 <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="16"/>
                                 <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="INFO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u2c-Gh-kD7">
-                                <rect key="frame" x="161" y="189" width="67" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INFO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u2c-Gh-kD7">
+                                <rect key="frame" x="10" y="171" width="370" height="28"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="25"/>
                                 <color key="textColor" red="0.5" green="0.4450273394" blue="0.40134994219999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="RESOURCES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NP3-pN-V4F">
-                                <rect key="frame" x="113" y="527" width="162" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RESOURCES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NP3-pN-V4F">
+                                <rect key="frame" x="10" y="496.66666666666669" width="370" height="28.000000000000057"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="25"/>
                                 <color key="textColor" red="0.5" green="0.4450273394" blue="0.40134994219999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="onZ-Uk-Z3h">
-                                <rect key="frame" x="0.0" y="646" width="390" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="onZ-Uk-Z3h">
+                                <rect key="frame" x="10" y="628.33333333333337" width="390" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Click here to learn more about mental health for college students">
                                     <color key="titleColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -604,9 +599,8 @@
                                     <action selector="nextResourcePressed:" destination="71C-r1-Slx" eventType="touchUpInside" id="gZd-gp-r8Y"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Symptoms and signs of common mental health challenges students face" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hpx-tJ-pcc">
-                                <rect key="frame" x="7" y="549" width="376" height="106"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Symptoms and signs of common mental health challenges students face" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hpx-tJ-pcc">
+                                <rect key="frame" x="10" y="534.66666666666663" width="370" height="83.666666666666629"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="25"/>
                                 <color key="textColor" red="0.027943318710000001" green="0.27145153280000001" blue="0.2550310194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -615,11 +609,29 @@
                         <viewLayoutGuide key="safeArea" id="1Yf-DD-KnH"/>
                         <color key="backgroundColor" red="0.97254908080000002" green="0.86274516580000005" blue="0.78039217000000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="u2c-Gh-kD7" firstAttribute="top" secondItem="SAY-jf-LAe" secondAttribute="bottom" constant="10" id="4QQ-Yf-EdA"/>
+                            <constraint firstItem="u2c-Gh-kD7" firstAttribute="leading" secondItem="1Yf-DD-KnH" secondAttribute="leading" constant="10" id="5gN-bV-OYF"/>
+                            <constraint firstItem="1Yf-DD-KnH" firstAttribute="trailing" secondItem="SAY-jf-LAe" secondAttribute="trailing" constant="10" id="6FB-U6-1d0"/>
+                            <constraint firstItem="1Yf-DD-KnH" firstAttribute="trailing" secondItem="NP3-pN-V4F" secondAttribute="trailing" constant="10" id="7nn-OV-zxs"/>
+                            <constraint firstItem="1Yf-DD-KnH" firstAttribute="trailing" secondItem="OL2-CJ-cBI" secondAttribute="trailing" constant="10" id="9mg-ck-bs6"/>
+                            <constraint firstItem="SAY-jf-LAe" firstAttribute="leading" secondItem="1Yf-DD-KnH" secondAttribute="leading" constant="10" id="LUX-81-jQl"/>
+                            <constraint firstItem="onZ-Uk-Z3h" firstAttribute="leading" secondItem="1Yf-DD-KnH" secondAttribute="leading" constant="10" id="RvM-z3-fAN"/>
                             <constraint firstItem="8qc-E6-NDz" firstAttribute="centerX" secondItem="u6A-ya-yw4" secondAttribute="centerX" constant="140" id="V9c-AH-cwj"/>
+                            <constraint firstItem="1Yf-DD-KnH" firstAttribute="trailing" secondItem="u2c-Gh-kD7" secondAttribute="trailing" constant="10" id="Vry-Kl-HrS"/>
+                            <constraint firstItem="onZ-Uk-Z3h" firstAttribute="trailing" secondItem="1Yf-DD-KnH" secondAttribute="trailing" constant="10" id="XOb-ou-FNL"/>
                             <constraint firstItem="5rp-yI-UiQ" firstAttribute="centerY" secondItem="u6A-ya-yw4" secondAttribute="centerY" constant="318" id="Xnv-SA-ond"/>
+                            <constraint firstItem="NP3-pN-V4F" firstAttribute="leading" secondItem="1Yf-DD-KnH" secondAttribute="leading" constant="10" id="bqL-av-w5X"/>
+                            <constraint firstItem="NP3-pN-V4F" firstAttribute="top" secondItem="OL2-CJ-cBI" secondAttribute="bottom" constant="20" id="cUY-qa-8Xl"/>
+                            <constraint firstItem="1Yf-DD-KnH" firstAttribute="trailing" secondItem="hpx-tJ-pcc" secondAttribute="trailing" constant="10" id="gGh-jl-y6U"/>
+                            <constraint firstItem="hpx-tJ-pcc" firstAttribute="leading" secondItem="1Yf-DD-KnH" secondAttribute="leading" constant="10" id="gcg-rN-K5M"/>
                             <constraint firstItem="8qc-E6-NDz" firstAttribute="centerY" secondItem="u6A-ya-yw4" secondAttribute="centerY" constant="318" id="h3l-vG-FVp"/>
+                            <constraint firstItem="hpx-tJ-pcc" firstAttribute="top" secondItem="NP3-pN-V4F" secondAttribute="bottom" constant="10" id="hqN-wS-VWi"/>
                             <constraint firstItem="5rp-yI-UiQ" firstAttribute="centerX" secondItem="u6A-ya-yw4" secondAttribute="centerX" constant="-140" id="j2q-kF-7Ad"/>
+                            <constraint firstItem="onZ-Uk-Z3h" firstAttribute="top" secondItem="hpx-tJ-pcc" secondAttribute="bottom" constant="10" id="kCq-rl-kNm"/>
                             <constraint firstItem="f6w-No-LWa" firstAttribute="centerY" secondItem="u6A-ya-yw4" secondAttribute="centerY" constant="318" id="oX1-4v-SFz"/>
+                            <constraint firstItem="OL2-CJ-cBI" firstAttribute="top" secondItem="u2c-Gh-kD7" secondAttribute="bottom" constant="10" id="x3u-Fu-bCf"/>
+                            <constraint firstItem="SAY-jf-LAe" firstAttribute="top" secondItem="1Yf-DD-KnH" secondAttribute="top" constant="30" id="xU4-1c-pxc"/>
+                            <constraint firstItem="OL2-CJ-cBI" firstAttribute="leading" secondItem="1Yf-DD-KnH" secondAttribute="leading" constant="10" id="yKd-2e-0rQ"/>
                             <constraint firstItem="f6w-No-LWa" firstAttribute="centerX" secondItem="u6A-ya-yw4" secondAttribute="centerX" id="zYj-7W-BYP"/>
                         </constraints>
                     </view>
@@ -640,7 +652,7 @@
         <segue reference="9Yb-oq-vVr"/>
         <segue reference="f6a-cd-GD7"/>
         <segue reference="Va3-G0-hoY"/>
-        <segue reference="jlL-I1-kxV"/>
+        <segue reference="J0r-Ld-1Pf"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="home button" width="48" height="48"/>
