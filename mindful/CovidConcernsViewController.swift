@@ -13,7 +13,7 @@ class CovidConcernsViewController: UIViewController {
     @IBOutlet weak var moreInfoButtonText: UIButton!
     @IBOutlet weak var nextButton: UIButton!
     
-    var websites = ["https://www.beam.community/whatwebelieve", "https://www.mhanational.org/issues/asian-americanpacific-islander-communities-and-mental-health", "https://www.nami.org/Your-Journey/Identity-and-Cultural-Dimensions/Black-African-American", "https://www.apa.org/pi/oema/resources/ethnicity-health/asian-american/article-mental-health"]
+    var websites = ["https://www.cdc.gov/coronavirus/2019-ncov/index.html", "https://timely.md/blog/self-care-tips-for-college-students/", "https://timely.md/blog/self-care-tips-for-college-students/", "https://www.cdc.gov/coronavirus/2019-ncov/daily-life-coping/managing-stress-anxiety.html"]
     var buttonNames = ["Click here to learn more on latest updated on Covid-19", "Click here to learn more about GriefShare", "Click here to learn more about Self-Care Tips", "Click here to learn more about coping with anxiety related to COVID-19"]
     
     var titles = ["Latest updates on Covid-19", "GriefShare (grief recovery support group)", "Self-Care Tips for Students During COVID-19", "Information from the CDC for coping with anxiety related to COVID-19"]
