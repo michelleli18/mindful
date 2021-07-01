@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -10,7 +10,7 @@
         <array key="Comfortaa-Bold.ttf">
             <string>Comfortaa-Bold</string>
         </array>
-        <array key="Comfortaa-VariableFont_wght.ttf">
+        <array key="Comfortaa-Regular.ttf">
             <string>Comfortaa-Regular</string>
         </array>
     </customFonts>
@@ -202,10 +202,9 @@
                                     <segue destination="UgI-dV-EIZ" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="f6a-cd-GD7"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Social Justice" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rp1-6y-w17">
-                                <rect key="frame" x="30" y="32" width="331" height="154"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="50"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Social Justice" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rp1-6y-w17">
+                                <rect key="frame" x="30" y="74" width="331" height="43.666666666666657"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="39"/>
                                 <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -216,32 +215,28 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="INFO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqJ-LX-S5t">
-                                <rect key="frame" x="162" y="179" width="67" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="INFO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqJ-LX-S5t">
+                                <rect key="frame" x="162" y="137.66666666666666" width="67" height="28"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="25"/>
                                 <color key="textColor" red="0.5" green="0.4450273394" blue="0.40134994219999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c86-Y8-eAS">
-                                <rect key="frame" x="30" y="205" width="344" height="369"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c86-Y8-eAS">
+                                <rect key="frame" x="10" y="175.66666666666666" width="370" height="303.33333333333337"/>
                                 <string key="text">People who identify as part of the black, AAPI, or another marginalized community often face additional challenges due to systemic racism and hate. This can lead to mental pressures and strains that can be difficult to address. More specifically, of the AAPI community in the United States, 15% have reported struggling with a mental illness in the past year. This is over 2.9 million people in total. Direct traumatic events such as microaggressions and verbal attacks can be huge stressors in one’s life and should not be overlooked. Check out the resources listed below to find additional information and ways to help you cope in the future!
 </string>
                                 <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="16"/>
                                 <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="RESOURCES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uha-Rb-JSf">
-                                <rect key="frame" x="114" y="537" width="162" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RESOURCES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uha-Rb-JSf">
+                                <rect key="frame" x="10" y="499" width="370" height="28"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="25"/>
                                 <color key="textColor" red="0.5" green="0.4450273394" blue="0.40134994219999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TfH-xB-jrd">
-                                <rect key="frame" x="0.0" y="658" width="390" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TfH-xB-jrd">
+                                <rect key="frame" x="0.0" y="647.66666666666663" width="390" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Click here to learn more about BEAM">
                                     <color key="titleColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -251,9 +246,8 @@
                                     <action selector="moreInfoPressed:" destination="71C-r1-Slx" eventType="touchUpInside" id="DxL-qg-dA2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4uG-ku-dMn">
-                                <rect key="frame" x="161" y="690" width="68" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4uG-ku-dMn">
+                                <rect key="frame" x="161" y="681.66666666666663" width="68" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" red="0.027943318710000001" green="0.27145153280000001" blue="0.2550310194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -263,9 +257,8 @@
                                     <action selector="nextResourcePressed:" destination="71C-r1-Slx" eventType="touchUpInside" id="bcl-P9-GCc"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Black Emotional and Mental Health Collective (BEAM)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MZd-Ue-hnj">
-                                <rect key="frame" x="16" y="561" width="358" height="106"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Black Emotional and Mental Health Collective (BEAM)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MZd-Ue-hnj">
+                                <rect key="frame" x="10" y="537" width="370" height="100.66666666666663"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="30"/>
                                 <color key="textColor" red="0.027943318710000001" green="0.27145153280000001" blue="0.2550310194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -274,11 +267,26 @@
                         <viewLayoutGuide key="safeArea" id="eJe-FF-VeB"/>
                         <color key="backgroundColor" red="0.9777798057" green="0.85991555450000001" blue="0.78224420549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="hqJ-LX-S5t" firstAttribute="top" secondItem="Rp1-6y-w17" secondAttribute="bottom" constant="20" id="8jZ-Kg-aOs"/>
+                            <constraint firstItem="eJe-FF-VeB" firstAttribute="trailing" secondItem="uha-Rb-JSf" secondAttribute="trailing" constant="10" id="BwT-KF-hdm"/>
+                            <constraint firstItem="c86-Y8-eAS" firstAttribute="leading" secondItem="eJe-FF-VeB" secondAttribute="leading" constant="10" id="CvB-jp-jLN"/>
                             <constraint firstItem="JFW-fq-97y" firstAttribute="centerY" secondItem="DOp-cX-pYg" secondAttribute="centerY" constant="318" id="Fdq-jx-mj9"/>
+                            <constraint firstItem="eSN-nH-ETD" firstAttribute="leading" secondItem="4uG-ku-dMn" secondAttribute="trailing" constant="82" id="JKV-N3-Mbc"/>
+                            <constraint firstItem="uha-Rb-JSf" firstAttribute="top" secondItem="c86-Y8-eAS" secondAttribute="bottom" constant="20" id="Jj4-Y3-v56"/>
+                            <constraint firstItem="eJe-FF-VeB" firstAttribute="trailing" secondItem="c86-Y8-eAS" secondAttribute="trailing" constant="10" id="PUz-qi-BTe"/>
+                            <constraint firstItem="TfH-xB-jrd" firstAttribute="top" secondItem="MZd-Ue-hnj" secondAttribute="bottom" constant="10" id="Q1a-mZ-oSF"/>
+                            <constraint firstItem="MZd-Ue-hnj" firstAttribute="leading" secondItem="eJe-FF-VeB" secondAttribute="leading" constant="10" id="Q9I-qw-QCc"/>
                             <constraint firstItem="eSN-nH-ETD" firstAttribute="centerX" secondItem="DOp-cX-pYg" secondAttribute="centerX" constant="140" id="Wel-kK-O4e"/>
+                            <constraint firstItem="eJe-FF-VeB" firstAttribute="trailing" secondItem="MZd-Ue-hnj" secondAttribute="trailing" constant="10" id="WwJ-8B-HKN"/>
+                            <constraint firstItem="c86-Y8-eAS" firstAttribute="top" secondItem="hqJ-LX-S5t" secondAttribute="bottom" constant="10" id="a3K-80-G3x"/>
+                            <constraint firstItem="MZd-Ue-hnj" firstAttribute="top" secondItem="uha-Rb-JSf" secondAttribute="bottom" constant="10" id="dKt-2f-ADj"/>
+                            <constraint firstItem="uha-Rb-JSf" firstAttribute="leading" secondItem="eJe-FF-VeB" secondAttribute="leading" constant="10" id="kNS-vM-Ana"/>
                             <constraint firstItem="1TL-Jt-oCQ" firstAttribute="centerX" secondItem="DOp-cX-pYg" secondAttribute="centerX" id="ovn-iM-EQj"/>
+                            <constraint firstItem="4uG-ku-dMn" firstAttribute="top" secondItem="TfH-xB-jrd" secondAttribute="bottom" constant="10" id="q7v-SA-eDq"/>
                             <constraint firstItem="1TL-Jt-oCQ" firstAttribute="centerY" secondItem="DOp-cX-pYg" secondAttribute="centerY" constant="318" id="qES-v5-RcM"/>
+                            <constraint firstItem="4uG-ku-dMn" firstAttribute="leading" secondItem="JFW-fq-97y" secondAttribute="trailing" constant="82" id="v8R-TW-Wyq"/>
                             <constraint firstItem="JFW-fq-97y" firstAttribute="centerX" secondItem="DOp-cX-pYg" secondAttribute="centerX" constant="-140" id="vIs-nT-QfW"/>
+                            <constraint firstItem="Rp1-6y-w17" firstAttribute="top" secondItem="eJe-FF-VeB" secondAttribute="top" constant="30" id="wSg-ba-Rk7"/>
                             <constraint firstItem="eSN-nH-ETD" firstAttribute="centerY" secondItem="DOp-cX-pYg" secondAttribute="centerY" constant="318" id="z6B-Fi-VUM"/>
                         </constraints>
                     </view>
@@ -291,7 +299,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ga2-2j-nmo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1514" y="781"/>
+            <point key="canvasLocation" x="1513.8461538461538" y="780.56872037914684"/>
         </scene>
         <!--Covid Concerns View Controller-->
         <scene sceneID="lGm-7H-MNQ">
@@ -308,13 +316,6 @@
                                     <segue destination="fti-RF-hJk" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="xV6-ax-boc"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Covid Concerns" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ne-Fp-rxr">
-                                <rect key="frame" x="36" y="30" width="319" height="129"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="50"/>
-                                <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5zO-4D-aN6">
                                 <rect key="frame" x="171" y="716" width="48" height="48"/>
                                 <state key="normal" backgroundImage="home button"/>
@@ -323,32 +324,28 @@
                                     <segue destination="vyJ-i2-Hiq" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="gYP-rx-8Dt"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DW6-fF-9YJ">
-                                <rect key="frame" x="16" y="167" width="358" height="380"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DW6-fF-9YJ">
+                                <rect key="frame" x="10" y="175.66666666666666" width="370" height="321.33333333333337"/>
                                 <string key="text">During a crisis such as the COVID-19 pandemic, it is common for everyone to experience increased levels of distress and anxiety as students adapt to this unexpected situation. Over 90% of college students have experienced negative mental health symptoms due to the pandemic. Nearly half of students struggle with isolation, anxiety, and a lack of focus. The pandemic has only exacerbated the academic pressures students face on a daily basis. It is essential to take steps to maintain physical, emotional and mental health, while remaining connected to a larger sense of community. Confronting stress will make you, the people you care about and your community stronger. 
 </string>
                                 <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="16"/>
                                 <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="INFO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iBh-dT-8IQ">
-                                <rect key="frame" x="162" y="156" width="67" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INFO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iBh-dT-8IQ">
+                                <rect key="frame" x="161" y="137.66666666666666" width="68" height="28"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="25"/>
                                 <color key="textColor" red="0.5" green="0.4450273394" blue="0.40134994219999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="RESOURCES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kZS-L5-SGK">
-                                <rect key="frame" x="114" y="520" width="162" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RESOURCES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kZS-L5-SGK">
+                                <rect key="frame" x="10" y="517" width="370" height="28"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="25"/>
                                 <color key="textColor" red="0.5" green="0.4450273394" blue="0.40134994219999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U1m-GY-0AK">
-                                <rect key="frame" x="0.0" y="652" width="390" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U1m-GY-0AK">
+                                <rect key="frame" x="10" y="593" width="390" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Click here to learn more about Covid-19 through CDC">
                                     <color key="titleColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -359,16 +356,14 @@
                                     <action selector="moreInfoPressed:" destination="71C-r1-Slx" eventType="touchUpInside" id="dZI-gU-5gc"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Latest updates on Covid-19" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fL-fu-Xjk">
-                                <rect key="frame" x="16" y="555" width="358" height="106"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Latest updates on Covid-19" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fL-fu-Xjk">
+                                <rect key="frame" x="10" y="555" width="370" height="28"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="25"/>
                                 <color key="textColor" red="0.027943318710000001" green="0.27145153280000001" blue="0.2550310194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MeG-vz-0D1">
-                                <rect key="frame" x="162" y="684" width="68" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MeG-vz-0D1">
+                                <rect key="frame" x="161" y="627" width="68" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" red="0.027943318710000001" green="0.27145153280000001" blue="0.2550310194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -379,13 +374,40 @@
                                     <action selector="nextResourcePressed:" destination="71C-r1-Slx" eventType="touchUpInside" id="Mis-VW-3wc"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Covid Concerns" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ne-Fp-rxr">
+                                <rect key="frame" x="10" y="74" width="370" height="43.666666666666657"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="39"/>
+                                <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vvI-I7-1gx"/>
                         <color key="backgroundColor" red="0.9777798057" green="0.85991555450000001" blue="0.78224420549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="U1m-GY-0AK" firstAttribute="leading" secondItem="vvI-I7-1gx" secondAttribute="leading" constant="10" id="1qn-bm-uMX"/>
+                            <constraint firstItem="U1m-GY-0AK" firstAttribute="top" secondItem="6fL-fu-Xjk" secondAttribute="bottom" constant="10" id="22Z-xK-GPd"/>
+                            <constraint firstItem="6fL-fu-Xjk" firstAttribute="leading" secondItem="vvI-I7-1gx" secondAttribute="leading" constant="10" id="Bnu-J5-k2d"/>
+                            <constraint firstItem="vvI-I7-1gx" firstAttribute="trailing" secondItem="DW6-fF-9YJ" secondAttribute="trailing" constant="10" id="CQH-0w-AF9"/>
+                            <constraint firstItem="vvI-I7-1gx" firstAttribute="trailing" secondItem="kZS-L5-SGK" secondAttribute="trailing" constant="10" id="Dfs-pg-NBb"/>
+                            <constraint firstItem="kZS-L5-SGK" firstAttribute="top" secondItem="DW6-fF-9YJ" secondAttribute="bottom" constant="20" id="HX3-pl-rA6"/>
                             <constraint firstItem="DDX-yg-X5o" firstAttribute="centerX" secondItem="9qn-of-MIB" secondAttribute="centerX" constant="-140" id="HaR-fM-XIf"/>
+                            <constraint firstItem="vvI-I7-1gx" firstAttribute="trailing" secondItem="MeG-vz-0D1" secondAttribute="trailing" constant="161" id="KMA-FJ-KpE"/>
+                            <constraint firstItem="6fL-fu-Xjk" firstAttribute="top" secondItem="kZS-L5-SGK" secondAttribute="bottom" constant="10" id="Mzd-vd-vug"/>
+                            <constraint firstItem="vvI-I7-1gx" firstAttribute="trailing" secondItem="3Ne-Fp-rxr" secondAttribute="trailing" constant="10" id="Oqr-cM-vfo"/>
+                            <constraint firstItem="kZS-L5-SGK" firstAttribute="leading" secondItem="vvI-I7-1gx" secondAttribute="leading" constant="10" id="PI3-9T-aLA"/>
+                            <constraint firstItem="vvI-I7-1gx" firstAttribute="trailing" secondItem="iBh-dT-8IQ" secondAttribute="trailing" constant="161" id="PW3-7H-daY"/>
+                            <constraint firstItem="3Ne-Fp-rxr" firstAttribute="top" secondItem="vvI-I7-1gx" secondAttribute="top" constant="30" id="TIy-y1-Lh4"/>
+                            <constraint firstItem="vvI-I7-1gx" firstAttribute="trailing" secondItem="6fL-fu-Xjk" secondAttribute="trailing" constant="10" id="UTT-TE-i6U"/>
                             <constraint firstItem="DDX-yg-X5o" firstAttribute="centerY" secondItem="9qn-of-MIB" secondAttribute="centerY" constant="318" id="WfE-DX-Uvz"/>
+                            <constraint firstItem="DW6-fF-9YJ" firstAttribute="leading" secondItem="vvI-I7-1gx" secondAttribute="leading" constant="10" id="Zsd-xb-8si"/>
+                            <constraint firstItem="iBh-dT-8IQ" firstAttribute="top" secondItem="3Ne-Fp-rxr" secondAttribute="bottom" constant="20" id="Zwk-e0-nFo"/>
+                            <constraint firstItem="MeG-vz-0D1" firstAttribute="leading" secondItem="vvI-I7-1gx" secondAttribute="leading" constant="161" id="cok-PE-G3i"/>
+                            <constraint firstItem="U1m-GY-0AK" firstAttribute="trailing" secondItem="vvI-I7-1gx" secondAttribute="trailing" constant="10" id="g7O-06-6B3"/>
+                            <constraint firstItem="DW6-fF-9YJ" firstAttribute="top" secondItem="iBh-dT-8IQ" secondAttribute="bottom" constant="10" id="l1J-We-XwI"/>
                             <constraint firstItem="5zO-4D-aN6" firstAttribute="centerX" secondItem="9qn-of-MIB" secondAttribute="centerX" id="lWZ-kF-2Eh"/>
+                            <constraint firstItem="iBh-dT-8IQ" firstAttribute="leading" secondItem="vvI-I7-1gx" secondAttribute="leading" constant="161" id="qFE-89-xXi"/>
+                            <constraint firstItem="MeG-vz-0D1" firstAttribute="top" secondItem="U1m-GY-0AK" secondAttribute="bottom" constant="10" id="qyq-wJ-jth"/>
+                            <constraint firstItem="3Ne-Fp-rxr" firstAttribute="leading" secondItem="vvI-I7-1gx" secondAttribute="leading" constant="10" id="wiy-ci-AHV"/>
                             <constraint firstItem="5zO-4D-aN6" firstAttribute="centerY" secondItem="9qn-of-MIB" secondAttribute="centerY" constant="318" id="xfQ-zn-Thr"/>
                         </constraints>
                     </view>
@@ -398,7 +420,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y7g-RT-4bZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2569" y="748"/>
+            <point key="canvasLocation" x="2568" y="781"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yst-Mx-Hwn">
@@ -587,9 +609,8 @@
                                     <action selector="moreInfoPressed:" destination="71C-r1-Slx" eventType="touchUpInside" id="EM1-00-5zc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1qq-g9-4o1">
-                                <rect key="frame" x="161" y="678" width="68" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1qq-g9-4o1">
+                                <rect key="frame" x="161" y="662.33333333333337" width="68" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" red="0.027943318710000001" green="0.27145153280000001" blue="0.2550310194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -614,6 +635,7 @@
                             <constraint firstItem="1Yf-DD-KnH" firstAttribute="trailing" secondItem="SAY-jf-LAe" secondAttribute="trailing" constant="10" id="6FB-U6-1d0"/>
                             <constraint firstItem="1Yf-DD-KnH" firstAttribute="trailing" secondItem="NP3-pN-V4F" secondAttribute="trailing" constant="10" id="7nn-OV-zxs"/>
                             <constraint firstItem="1Yf-DD-KnH" firstAttribute="trailing" secondItem="OL2-CJ-cBI" secondAttribute="trailing" constant="10" id="9mg-ck-bs6"/>
+                            <constraint firstItem="1qq-g9-4o1" firstAttribute="top" secondItem="onZ-Uk-Z3h" secondAttribute="bottom" constant="10" id="JJn-gh-7tp"/>
                             <constraint firstItem="SAY-jf-LAe" firstAttribute="leading" secondItem="1Yf-DD-KnH" secondAttribute="leading" constant="10" id="LUX-81-jQl"/>
                             <constraint firstItem="onZ-Uk-Z3h" firstAttribute="leading" secondItem="1Yf-DD-KnH" secondAttribute="leading" constant="10" id="RvM-z3-fAN"/>
                             <constraint firstItem="8qc-E6-NDz" firstAttribute="centerX" secondItem="u6A-ya-yw4" secondAttribute="centerX" constant="140" id="V9c-AH-cwj"/>
@@ -644,11 +666,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aBb-Ji-Sgb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2569" y="-122"/>
+            <point key="canvasLocation" x="2568" y="-122"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="bug-dZ-yQG"/>
+        <segue reference="rU6-Aj-3zh"/>
         <segue reference="9Yb-oq-vVr"/>
         <segue reference="f6a-cd-GD7"/>
         <segue reference="Va3-G0-hoY"/>
