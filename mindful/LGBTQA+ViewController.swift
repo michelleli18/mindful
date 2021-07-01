@@ -30,10 +30,34 @@ class LGBTQA_ViewController: UIViewController {
         UIApplication.shared.open(URL(string: websites[index])! as URL, options: [:], completionHandler: nil)
     }
     @IBAction func nextResourcePressed(_ sender: UIButton) {
+        let firstIndex = index
+        var secondIndex : Int
+        if index + 1 != websites.count {
+            secondIndex = index + 1
+        } else {
+            secondIndex = 0
+        }
+        
+        UIView.transition(with: titleText,
+                          duration: 0.2,
+                       options: .transitionCrossDissolve,
+                    animations: { [weak self] in
+                        self?.titleText.text = (arc4random() % 2 == 0) ? self?.titles[firstIndex] : " "
+                 }, completion: nil)
+        
+        UIView.transition(with: titleText,
+                          duration: 0.2,
+                       options: .transitionCrossDissolve,
+                    animations: { [weak self] in
+                        self?.titleText.text = (arc4random() % 2 == 0) ? " " : self?.titles[secondIndex]
+                 }, completion: nil)
+        
         index += 1
         index = index % websites.count
         moreInfoText.setTitle(buttonNames[index], for: .normal)
         titleText.text = titles[index]
+        
+        
     }
     
     @IBAction func homeButtonPressed(_ sender: Any) {
