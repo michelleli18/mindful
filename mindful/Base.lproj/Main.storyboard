@@ -4,14 +4,13 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
         <array key="Comfortaa-Bold.ttf">
             <string>Comfortaa-Bold</string>
         </array>
-        <array key="Comfortaa-VariableFont_wght.ttf">
+        <array key="Comfortaa-Regular.ttf">
             <string>Comfortaa-Regular</string>
         </array>
     </customFonts>
@@ -77,68 +76,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="home page" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bb7-cy-KZu">
-                                <rect key="frame" x="10" y="82" width="370" height="57"/>
-                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="51"/>
+                                <rect key="frame" x="10" y="82" width="370" height="59.333333333333343"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="53"/>
                                 <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click on any topic for helpful information and resources" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cM8-d7-H9Y">
-                                <rect key="frame" x="10" y="165" width="370" height="83.666666666666686"/>
-                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="25"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click on any topic for helpful information and resources!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cM8-d7-H9Y">
+                                <rect key="frame" x="10" y="167.33333333333334" width="370" height="51.333333333333343"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="23"/>
                                 <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GSu-iy-rhr">
-                                <rect key="frame" x="37" y="301" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="20"/>
-                                <state key="normal" title="LGBTQIA+">
-                                    <color key="titleColor" red="0.027943318710000001" green="0.27145153280000001" blue="0.2550310194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="71C-r1-Slx" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="D80-ue-bca"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="eEP-WS-Jg0">
-                                <rect key="frame" x="204" y="300" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="20"/>
-                                <state key="normal" title="Student Pressures">
-                                    <color key="titleColor" red="0.027943318710000001" green="0.27145153280000001" blue="0.2550310194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="titleLabel.textAlignment" value="UITextAlignmentCenter"/>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="67b-MN-Hgi" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="IPv-x0-Xw0"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="iI5-du-23N">
-                                <rect key="frame" x="37" y="472" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="20"/>
-                                <state key="normal" title="BLM/Stop Asian Hate">
-                                    <color key="titleColor" red="0.027943318710000001" green="0.27145153280000001" blue="0.2550310194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="fti-RF-hJk" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="1Vn-en-FbZ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Xi1-WU-Arh">
-                                <rect key="frame" x="204" y="472" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="20"/>
-                                <state key="normal" title="Covid Concerns">
-                                    <color key="titleColor" red="0.027943318710000001" green="0.27145153280000001" blue="0.2550310194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="UgI-dV-EIZ" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="hWm-dS-2H3"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mindful logo" translatesAutoresizingMaskIntoConstraints="NO" id="sUk-74-Rrw">
                                 <rect key="frame" x="-829" y="674" width="2048" height="136"/>
                                 <constraints>
@@ -157,6 +105,57 @@
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="ZMP-bd-64j" kind="presentation" modalPresentationStyle="fullScreen" id="N0w-pV-SYo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GSu-iy-rhr">
+                                <rect key="frame" x="37" y="282" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="20"/>
+                                <state key="normal" title="LGBTQIA+">
+                                    <color key="titleColor" red="0.027943318710000001" green="0.27145153280000001" blue="0.2550310194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="71C-r1-Slx" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="D80-ue-bca"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="eEP-WS-Jg0">
+                                <rect key="frame" x="204" y="281" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="20"/>
+                                <state key="normal" title="Student Pressures">
+                                    <color key="titleColor" red="0.027943318710000001" green="0.27145153280000001" blue="0.2550310194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="titleLabel.textAlignment" value="UITextAlignmentCenter"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="67b-MN-Hgi" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="IPv-x0-Xw0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="iI5-du-23N">
+                                <rect key="frame" x="37" y="453" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="20"/>
+                                <state key="normal" title="BLM/Stop Asian Hate">
+                                    <color key="titleColor" red="0.027943318710000001" green="0.27145153280000001" blue="0.2550310194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fti-RF-hJk" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="1Vn-en-FbZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Xi1-WU-Arh">
+                                <rect key="frame" x="204" y="453" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="20"/>
+                                <state key="normal" title="Covid Concerns">
+                                    <color key="titleColor" red="0.027943318710000001" green="0.27145153280000001" blue="0.2550310194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="UgI-dV-EIZ" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="hWm-dS-2H3"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -229,31 +228,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INFO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqJ-LX-S5t">
-                                <rect key="frame" x="10" y="137.66666666666666" width="370" height="28"/>
-                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="25"/>
-                                <color key="textColor" red="0.5" green="0.4450273394" blue="0.40134994219999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c86-Y8-eAS">
-                                <rect key="frame" x="10" y="175.66666666666666" width="370" height="303.33333333333337"/>
+                                <rect key="frame" x="10" y="177.66666666666666" width="370" height="303.33333333333337"/>
                                 <string key="text">People who identify as part of the black, AAPI, or another marginalized community often face additional challenges due to systemic racism and hate. This can lead to mental pressures and strains that can be difficult to address. More specifically, of the AAPI community in the United States, 15% have reported struggling with a mental illness in the past year. This is over 2.9 million people in total. Direct traumatic events such as microaggressions and verbal attacks can be huge stressors in one’s life and should not be overlooked. Check out the resources listed below to find additional information and ways to help you cope in the future!
 </string>
                                 <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="16"/>
                                 <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RESOURCES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uha-Rb-JSf">
-                                <rect key="frame" x="10" y="499" width="370" height="28"/>
-                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="25"/>
-                                <color key="textColor" red="0.5" green="0.4450273394" blue="0.40134994219999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TfH-xB-jrd">
-                                <rect key="frame" x="0.0" y="642" width="390" height="24"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <rect key="frame" x="0.0" y="638" width="390" height="29"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <state key="normal" title="Click here to learn more about BEAM">
-                                    <color key="titleColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.02352941222" green="0.270588249" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="moreInfoPressed:" destination="fti-RF-hJk" eventType="touchUpInside" id="0EY-fT-Tqq"/>
@@ -261,8 +248,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4uG-ku-dMn">
-                                <rect key="frame" x="161" y="676" width="68" height="30"/>
+                                <rect key="frame" x="161" y="677" width="68" height="29"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" red="0.027943318710000001" green="0.27145153280000001" blue="0.2550310194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -272,39 +260,58 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Black Emotional and Mental Health Collective (BEAM)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MZd-Ue-hnj">
-                                <rect key="frame" x="10" y="537" width="370" height="100.66666666666663"/>
-                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="30"/>
+                                <rect key="frame" x="10" y="544.66666666666663" width="370" height="87"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="26"/>
                                 <color key="textColor" red="0.027943318710000001" green="0.27145153280000001" blue="0.2550310194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INFO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bvN-by-gcs">
+                                <rect key="frame" x="10" y="137.66666666666666" width="370" height="33.666666666666657"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.1607843041" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RESOURCES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I7v-xP-3TI">
+                                <rect key="frame" x="10" y="501.00000000000006" width="370" height="33.666666666666686"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="30"/>
+                                <color key="textColor" red="0.02352941222" green="0.270588249" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eJe-FF-VeB"/>
                         <color key="backgroundColor" red="0.9777798057" green="0.85991555450000001" blue="0.78224420549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="hqJ-LX-S5t" firstAttribute="top" secondItem="Rp1-6y-w17" secondAttribute="bottom" constant="20" id="8jZ-Kg-aOs"/>
-                            <constraint firstItem="eJe-FF-VeB" firstAttribute="trailing" secondItem="uha-Rb-JSf" secondAttribute="trailing" constant="10" id="BwT-KF-hdm"/>
+                            <constraint firstItem="I7v-xP-3TI" firstAttribute="leading" secondItem="eJe-FF-VeB" secondAttribute="leading" constant="10" id="37J-C2-aKT"/>
+                            <constraint firstItem="c86-Y8-eAS" firstAttribute="leading" secondItem="eJe-FF-VeB" secondAttribute="leading" constant="10" id="4tH-bq-TKG"/>
+                            <constraint firstItem="bvN-by-gcs" firstAttribute="leading" secondItem="eJe-FF-VeB" secondAttribute="leading" constant="10" id="9dE-vV-WYa"/>
+                            <constraint firstItem="eJe-FF-VeB" firstAttribute="trailing" secondItem="I7v-xP-3TI" secondAttribute="trailing" constant="10" id="Byl-vD-Te3"/>
+                            <constraint firstItem="I7v-xP-3TI" firstAttribute="leading" secondItem="eJe-FF-VeB" secondAttribute="leading" constant="10" id="CkU-V9-uGv"/>
                             <constraint firstItem="c86-Y8-eAS" firstAttribute="leading" secondItem="eJe-FF-VeB" secondAttribute="leading" constant="10" id="CvB-jp-jLN"/>
                             <constraint firstItem="1TL-Jt-oCQ" firstAttribute="top" secondItem="4uG-ku-dMn" secondAttribute="bottom" constant="10" id="Cz5-sa-TVK"/>
+                            <constraint firstItem="MZd-Ue-hnj" firstAttribute="top" secondItem="I7v-xP-3TI" secondAttribute="bottom" constant="10" id="DU1-Kg-07f"/>
                             <constraint firstItem="JFW-fq-97y" firstAttribute="centerY" secondItem="DOp-cX-pYg" secondAttribute="centerY" constant="318" id="Fdq-jx-mj9"/>
                             <constraint firstItem="eSN-nH-ETD" firstAttribute="leading" secondItem="4uG-ku-dMn" secondAttribute="trailing" constant="82" id="JKV-N3-Mbc"/>
+                            <constraint firstItem="MZd-Ue-hnj" firstAttribute="top" secondItem="I7v-xP-3TI" secondAttribute="bottom" constant="10" id="OSV-bA-1pF"/>
+                            <constraint firstItem="c86-Y8-eAS" firstAttribute="top" secondItem="bvN-by-gcs" secondAttribute="bottom" constant="6.3300000000000001" id="OqL-td-b2G"/>
                             <constraint firstItem="eJe-FF-VeB" firstAttribute="trailing" secondItem="c86-Y8-eAS" secondAttribute="trailing" constant="10" id="PUz-qi-BTe"/>
                             <constraint firstItem="MZd-Ue-hnj" firstAttribute="leading" secondItem="eJe-FF-VeB" secondAttribute="leading" constant="10" id="Q9I-qw-QCc"/>
+                            <constraint firstItem="I7v-xP-3TI" firstAttribute="top" secondItem="c86-Y8-eAS" secondAttribute="bottom" constant="20" id="Vlk-HC-2zn"/>
+                            <constraint firstItem="bvN-by-gcs" firstAttribute="top" secondItem="Rp1-6y-w17" secondAttribute="bottom" constant="20" id="WO4-GD-ajQ"/>
                             <constraint firstItem="eSN-nH-ETD" firstAttribute="centerX" secondItem="DOp-cX-pYg" secondAttribute="centerX" constant="140" id="Wel-kK-O4e"/>
                             <constraint firstItem="eJe-FF-VeB" firstAttribute="trailing" secondItem="MZd-Ue-hnj" secondAttribute="trailing" constant="10" id="WwJ-8B-HKN"/>
-                            <constraint firstItem="c86-Y8-eAS" firstAttribute="top" secondItem="hqJ-LX-S5t" secondAttribute="bottom" constant="10" id="a3K-80-G3x"/>
-                            <constraint firstItem="hqJ-LX-S5t" firstAttribute="leading" secondItem="eJe-FF-VeB" secondAttribute="leading" constant="10" id="bdT-L8-fGg"/>
-                            <constraint firstItem="MZd-Ue-hnj" firstAttribute="top" secondItem="uha-Rb-JSf" secondAttribute="bottom" constant="10" id="dKt-2f-ADj"/>
-                            <constraint firstItem="eJe-FF-VeB" firstAttribute="trailing" secondItem="hqJ-LX-S5t" secondAttribute="trailing" constant="10" id="fbI-kp-u8S"/>
-                            <constraint firstItem="uha-Rb-JSf" firstAttribute="leading" secondItem="eJe-FF-VeB" secondAttribute="leading" constant="10" id="kNS-vM-Ana"/>
+                            <constraint firstItem="I7v-xP-3TI" firstAttribute="top" secondItem="c86-Y8-eAS" secondAttribute="bottom" constant="20" id="bOa-s4-PIN"/>
+                            <constraint firstItem="eJe-FF-VeB" firstAttribute="trailing" secondItem="bvN-by-gcs" secondAttribute="trailing" constant="10" id="fTn-s8-ZcF"/>
                             <constraint firstItem="Rp1-6y-w17" firstAttribute="leading" secondItem="eJe-FF-VeB" secondAttribute="leading" constant="10" id="kYX-Vc-z7X"/>
-                            <constraint firstItem="uha-Rb-JSf" firstAttribute="top" secondItem="c86-Y8-eAS" secondAttribute="bottom" constant="20" id="lWO-Ug-Zaa"/>
                             <constraint firstItem="TfH-xB-jrd" firstAttribute="leading" secondItem="eJe-FF-VeB" secondAttribute="leading" id="mNZ-1d-B75"/>
                             <constraint firstItem="1TL-Jt-oCQ" firstAttribute="centerX" secondItem="DOp-cX-pYg" secondAttribute="centerX" id="ovn-iM-EQj"/>
                             <constraint firstItem="4uG-ku-dMn" firstAttribute="top" secondItem="TfH-xB-jrd" secondAttribute="bottom" constant="10" id="oxM-Ii-YBv"/>
                             <constraint firstItem="1TL-Jt-oCQ" firstAttribute="centerY" secondItem="DOp-cX-pYg" secondAttribute="centerY" constant="318" id="qES-v5-RcM"/>
+                            <constraint firstItem="I7v-xP-3TI" firstAttribute="top" secondItem="c86-Y8-eAS" secondAttribute="bottom" constant="20" id="qPM-L2-yJV"/>
                             <constraint firstItem="eJe-FF-VeB" firstAttribute="trailing" secondItem="Rp1-6y-w17" secondAttribute="trailing" constant="10" id="tCl-sV-lkv"/>
+                            <constraint firstItem="eJe-FF-VeB" firstAttribute="trailing" secondItem="I7v-xP-3TI" secondAttribute="trailing" constant="10" id="uMm-x5-rDf"/>
                             <constraint firstItem="4uG-ku-dMn" firstAttribute="leading" secondItem="JFW-fq-97y" secondAttribute="trailing" constant="82" id="v8R-TW-Wyq"/>
                             <constraint firstItem="JFW-fq-97y" firstAttribute="centerX" secondItem="DOp-cX-pYg" secondAttribute="centerX" constant="-140" id="vIs-nT-QfW"/>
+                            <constraint firstItem="eJe-FF-VeB" firstAttribute="trailing" secondItem="c86-Y8-eAS" secondAttribute="trailing" constant="10" id="wIO-A1-frn"/>
                             <constraint firstItem="Rp1-6y-w17" firstAttribute="top" secondItem="eJe-FF-VeB" secondAttribute="top" constant="30" id="wSg-ba-Rk7"/>
                             <constraint firstItem="TfH-xB-jrd" firstAttribute="trailing" secondItem="eJe-FF-VeB" secondAttribute="trailing" id="x7W-7H-ah8"/>
                             <constraint firstItem="eSN-nH-ETD" firstAttribute="centerY" secondItem="DOp-cX-pYg" secondAttribute="centerY" constant="318" id="z6B-Fi-VUM"/>
@@ -319,7 +326,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ga2-2j-nmo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1513.8461538461538" y="780.56872037914684"/>
+            <point key="canvasLocation" x="1514" y="596"/>
         </scene>
         <!--Covid Concerns View Controller-->
         <scene sceneID="lGm-7H-MNQ">
@@ -345,30 +352,18 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DW6-fF-9YJ">
-                                <rect key="frame" x="10" y="175.66666666666666" width="370" height="321.33333333333337"/>
+                                <rect key="frame" x="10" y="177.66666666666666" width="370" height="321.33333333333337"/>
                                 <string key="text">During a crisis such as the COVID-19 pandemic, it is common for everyone to experience increased levels of distress and anxiety as students adapt to this unexpected situation. Over 90% of college students have experienced negative mental health symptoms due to the pandemic. Nearly half of students struggle with isolation, anxiety, and a lack of focus. The pandemic has only exacerbated the academic pressures students face on a daily basis. It is essential to take steps to maintain physical, emotional and mental health, while remaining connected to a larger sense of community. Confronting stress will make you, the people you care about and your community stronger. 
 </string>
                                 <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="16"/>
                                 <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INFO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iBh-dT-8IQ">
-                                <rect key="frame" x="161" y="137.66666666666666" width="68" height="28"/>
-                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="25"/>
-                                <color key="textColor" red="0.5" green="0.4450273394" blue="0.40134994219999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RESOURCES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kZS-L5-SGK">
-                                <rect key="frame" x="10" y="517" width="370" height="28"/>
-                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="25"/>
-                                <color key="textColor" red="0.5" green="0.4450273394" blue="0.40134994219999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U1m-GY-0AK">
-                                <rect key="frame" x="10" y="642" width="390" height="24"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <rect key="frame" x="10" y="638" width="390" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <state key="normal" title="Click here to learn more about Covid-19 through CDC">
-                                    <color key="titleColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.02352941222" green="0.270588249" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="moreInfoPressed:" destination="fti-RF-hJk" eventType="touchUpInside" id="FN8-AH-cUp"/>
@@ -376,15 +371,10 @@
                                     <action selector="moreInfoPressed:" destination="71C-r1-Slx" eventType="touchUpInside" id="dZI-gU-5gc"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Latest updates on Covid-19" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fL-fu-Xjk">
-                                <rect key="frame" x="10" y="555" width="370" height="60.333333333333371"/>
-                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="27"/>
-                                <color key="textColor" red="0.027943318710000001" green="0.27145153280000001" blue="0.2550310194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MeG-vz-0D1">
-                                <rect key="frame" x="161" y="676" width="68" height="30"/>
+                                <rect key="frame" x="161" y="677" width="68" height="29"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" red="0.027943318710000001" green="0.27145153280000001" blue="0.2550310194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -400,35 +390,53 @@
                                 <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INFO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oIS-S3-ywl">
+                                <rect key="frame" x="10" y="137.66666666666666" width="370" height="33.666666666666657"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.1607843041" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RESOURCES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8SE-7C-9BW">
+                                <rect key="frame" x="10" y="519" width="370" height="33.666666666666629"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="30"/>
+                                <color key="textColor" red="0.02352941222" green="0.270588249" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Latest updates on Covid-19" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fL-fu-Xjk">
+                                <rect key="frame" x="10" y="581" width="366.66666666666669" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="26"/>
+                                <color key="textColor" red="0.027943318710000001" green="0.27145153280000001" blue="0.2550310194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vvI-I7-1gx"/>
                         <color key="backgroundColor" red="0.9777798057" green="0.85991555450000001" blue="0.78224420549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="DW6-fF-9YJ" firstAttribute="leading" secondItem="vvI-I7-1gx" secondAttribute="leading" constant="10" id="0Wl-ba-TtC"/>
                             <constraint firstItem="U1m-GY-0AK" firstAttribute="leading" secondItem="vvI-I7-1gx" secondAttribute="leading" constant="10" id="1qn-bm-uMX"/>
+                            <constraint firstItem="oIS-S3-ywl" firstAttribute="top" secondItem="3Ne-Fp-rxr" secondAttribute="bottom" constant="20" id="2Bv-nt-ugU"/>
                             <constraint firstItem="MeG-vz-0D1" firstAttribute="top" secondItem="U1m-GY-0AK" secondAttribute="bottom" constant="10" id="2np-ic-RKA"/>
-                            <constraint firstItem="6fL-fu-Xjk" firstAttribute="top" secondItem="kZS-L5-SGK" secondAttribute="bottom" constant="10" id="7Fu-54-BCf"/>
-                            <constraint firstItem="6fL-fu-Xjk" firstAttribute="leading" secondItem="vvI-I7-1gx" secondAttribute="leading" constant="10" id="Bnu-J5-k2d"/>
+                            <constraint firstItem="vvI-I7-1gx" firstAttribute="trailing" secondItem="8SE-7C-9BW" secondAttribute="trailing" constant="10" id="8xC-JQ-VD5"/>
                             <constraint firstItem="vvI-I7-1gx" firstAttribute="trailing" secondItem="DW6-fF-9YJ" secondAttribute="trailing" constant="10" id="CQH-0w-AF9"/>
-                            <constraint firstItem="vvI-I7-1gx" firstAttribute="trailing" secondItem="kZS-L5-SGK" secondAttribute="trailing" constant="10" id="Dfs-pg-NBb"/>
-                            <constraint firstItem="kZS-L5-SGK" firstAttribute="top" secondItem="DW6-fF-9YJ" secondAttribute="bottom" constant="20" id="HX3-pl-rA6"/>
                             <constraint firstItem="DDX-yg-X5o" firstAttribute="centerX" secondItem="9qn-of-MIB" secondAttribute="centerX" constant="-140" id="HaR-fM-XIf"/>
                             <constraint firstItem="vvI-I7-1gx" firstAttribute="trailing" secondItem="MeG-vz-0D1" secondAttribute="trailing" constant="161" id="KMA-FJ-KpE"/>
                             <constraint firstItem="vvI-I7-1gx" firstAttribute="trailing" secondItem="3Ne-Fp-rxr" secondAttribute="trailing" constant="10" id="Oqr-cM-vfo"/>
-                            <constraint firstItem="kZS-L5-SGK" firstAttribute="leading" secondItem="vvI-I7-1gx" secondAttribute="leading" constant="10" id="PI3-9T-aLA"/>
-                            <constraint firstItem="vvI-I7-1gx" firstAttribute="trailing" secondItem="iBh-dT-8IQ" secondAttribute="trailing" constant="161" id="PW3-7H-daY"/>
                             <constraint firstItem="3Ne-Fp-rxr" firstAttribute="top" secondItem="vvI-I7-1gx" secondAttribute="top" constant="30" id="TIy-y1-Lh4"/>
-                            <constraint firstItem="vvI-I7-1gx" firstAttribute="trailing" secondItem="6fL-fu-Xjk" secondAttribute="trailing" constant="10" id="UTT-TE-i6U"/>
+                            <constraint firstItem="vvI-I7-1gx" firstAttribute="trailing" secondItem="DW6-fF-9YJ" secondAttribute="trailing" constant="10" id="Teq-oi-DvX"/>
                             <constraint firstItem="DDX-yg-X5o" firstAttribute="centerY" secondItem="9qn-of-MIB" secondAttribute="centerY" constant="318" id="WfE-DX-Uvz"/>
+                            <constraint firstItem="DW6-fF-9YJ" firstAttribute="top" secondItem="oIS-S3-ywl" secondAttribute="bottom" constant="6.3300000000000001" id="Zdk-eD-k0P"/>
                             <constraint firstItem="DW6-fF-9YJ" firstAttribute="leading" secondItem="vvI-I7-1gx" secondAttribute="leading" constant="10" id="Zsd-xb-8si"/>
-                            <constraint firstItem="iBh-dT-8IQ" firstAttribute="top" secondItem="3Ne-Fp-rxr" secondAttribute="bottom" constant="20" id="Zwk-e0-nFo"/>
                             <constraint firstItem="MeG-vz-0D1" firstAttribute="leading" secondItem="vvI-I7-1gx" secondAttribute="leading" constant="161" id="cok-PE-G3i"/>
+                            <constraint firstItem="oIS-S3-ywl" firstAttribute="leading" secondItem="vvI-I7-1gx" secondAttribute="leading" constant="10" id="dIW-J8-ed5"/>
                             <constraint firstItem="U1m-GY-0AK" firstAttribute="trailing" secondItem="vvI-I7-1gx" secondAttribute="trailing" constant="10" id="g7O-06-6B3"/>
-                            <constraint firstItem="DW6-fF-9YJ" firstAttribute="top" secondItem="iBh-dT-8IQ" secondAttribute="bottom" constant="10" id="l1J-We-XwI"/>
+                            <constraint firstItem="8SE-7C-9BW" firstAttribute="top" secondItem="DW6-fF-9YJ" secondAttribute="bottom" constant="20" id="hbb-Iq-7Fo"/>
                             <constraint firstItem="5zO-4D-aN6" firstAttribute="centerX" secondItem="9qn-of-MIB" secondAttribute="centerX" id="lWZ-kF-2Eh"/>
                             <constraint firstItem="5zO-4D-aN6" firstAttribute="top" secondItem="MeG-vz-0D1" secondAttribute="bottom" constant="10" id="ow7-fw-BXo"/>
-                            <constraint firstItem="iBh-dT-8IQ" firstAttribute="leading" secondItem="vvI-I7-1gx" secondAttribute="leading" constant="161" id="qFE-89-xXi"/>
+                            <constraint firstItem="8SE-7C-9BW" firstAttribute="leading" secondItem="vvI-I7-1gx" secondAttribute="leading" constant="10" id="usG-qn-fLs"/>
                             <constraint firstItem="3Ne-Fp-rxr" firstAttribute="leading" secondItem="vvI-I7-1gx" secondAttribute="leading" constant="10" id="wiy-ci-AHV"/>
                             <constraint firstItem="5zO-4D-aN6" firstAttribute="centerY" secondItem="9qn-of-MIB" secondAttribute="centerY" constant="318" id="xfQ-zn-Thr"/>
+                            <constraint firstItem="vvI-I7-1gx" firstAttribute="trailing" secondItem="oIS-S3-ywl" secondAttribute="trailing" constant="10" id="yxd-Bl-xwJ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="pJr-QG-HVL"/>
@@ -440,7 +448,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y7g-RT-4bZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2567.6923076923076" y="780.56872037914684"/>
+            <point key="canvasLocation" x="2265" y="596"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yst-Mx-Hwn">
@@ -457,9 +465,9 @@
                                 <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INFO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dsb-jZ-S7n">
-                                <rect key="frame" x="10" y="150" width="370" height="28"/>
-                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="25"/>
-                                <color key="textColor" red="0.5" green="0.44502733941744105" blue="0.40134994216912689" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="10" y="150" width="370" height="33.666666666666657"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.1607843041" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OeR-mf-tZC">
@@ -481,10 +489,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yOK-pd-4U8">
-                                <rect key="frame" x="0.0" y="642" width="390" height="24"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <rect key="frame" x="0.0" y="640" width="390" height="28"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="14"/>
                                 <state key="normal" title="Click here to learn more about APA">
-                                    <color key="titleColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.02352941222" green="0.270588249" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="moreInfoPressed:" destination="71C-r1-Slx" eventType="touchUpInside" id="bwW-Ey-oQ9"/>
@@ -494,12 +502,13 @@
                                 <rect key="frame" x="10" y="190.00000000000003" width="370" height="285.66666666666674"/>
                                 <string key="text">Discrimination against people who identify as LGBTQIA+ can impact one’s mental health and increase rates of anxiety and depression. According to a CDC survey in 2016, 60% of youth in the LGBTQIA+ community reported that they are feeling sad or depressed on a daily basis. Facing unsupportive family or friends can be a major stressor that some people may experience on a daily basis. Unfortunately, the stigma against mental health has left many LGBTQIA+ youth feeling helpless and struggling to find any hope. Click any of the links below to find resources and supportive communities for individuals of all walks of life!</string>
                                 <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="16"/>
-                                <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.0" green="0.1607843041" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YGm-0N-tlk">
-                                <rect key="frame" x="161" y="676" width="68" height="30"/>
+                                <rect key="frame" x="161" y="678" width="68" height="28"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="14"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" red="0.027943318710000001" green="0.27145153280000001" blue="0.2550310194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -509,17 +518,17 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RESOURCES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="woz-9i-SLm">
-                                <rect key="frame" x="10" y="495.66666666666669" width="370" height="28.000000000000057"/>
-                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="25"/>
-                                <color key="textColor" red="0.5" green="0.44502733941744105" blue="0.40134994216912689" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="10" y="495.66666666666669" width="370" height="33.666666666666686"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="30"/>
+                                <color key="textColor" red="0.02352941222" green="0.270588249" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The American Psychological Association (APA)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EqZ-YH-iJ8">
-                                <rect key="frame" x="10" y="533.66666666666663" width="370" height="100.66666666666663"/>
+                                <rect key="frame" x="10" y="539.33333333333337" width="370" height="87"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="370" id="cU6-wO-y79"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="26"/>
                                 <color key="textColor" red="0.027943318710000001" green="0.27145153280000001" blue="0.2550310194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
@@ -564,7 +573,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AQZ-4E-Uxq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="GpP-Y4-4MG" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1513.8461538461538" y="-121.56398104265402"/>
+            <point key="canvasLocation" x="1514" y="-77"/>
         </scene>
         <!--Student Pressures View Controller-->
         <scene sceneID="LMT-Eb-yq3">
@@ -597,35 +606,35 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Student Pressures" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SAY-jf-LAe">
-                                <rect key="frame" x="10" y="74" width="370" height="87"/>
-                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="39"/>
+                                <rect key="frame" x="10" y="74" width="370" height="91.666666666666686"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="41"/>
                                 <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OL2-CJ-cBI">
-                                <rect key="frame" x="10" y="209.00000000000003" width="370" height="267.66666666666674"/>
+                                <rect key="frame" x="10" y="219.33333333333334" width="370" height="267.66666666666663"/>
                                 <string key="text">  Academic pressure on young adults has reached high levels. The stress of getting into the best college, maintaining high grades, and landing the best internships - all in preparation for success in the workplace - takes an enormous toll on young adult mental health. 87% of students surveyed in 2019 by the American College Health Association said they had felt overwhelmed at some point during the school year by everything they had to do, and 85% reported feeling mentally exhausted. Check out the resources below to find positive approaches to academic stress management. </string>
                                 <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="16"/>
                                 <color key="textColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INFO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u2c-Gh-kD7">
-                                <rect key="frame" x="10" y="171" width="370" height="28"/>
-                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="25"/>
-                                <color key="textColor" red="0.5" green="0.4450273394" blue="0.40134994219999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="10" y="175.66666666666666" width="370" height="33.666666666666657"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.1607843041" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RESOURCES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NP3-pN-V4F">
-                                <rect key="frame" x="10" y="496.66666666666669" width="370" height="28.000000000000057"/>
-                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="25"/>
-                                <color key="textColor" red="0.5" green="0.4450273394" blue="0.40134994219999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="10" y="507.00000000000006" width="370" height="33.666666666666686"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="30"/>
+                                <color key="textColor" red="0.02352941222" green="0.270588249" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="onZ-Uk-Z3h">
-                                <rect key="frame" x="10" y="642" width="370" height="24"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                <state key="normal" title="Click here to learn more about mental health for college students">
-                                    <color key="titleColor" red="0.015602202149999999" green="0.1798847318" blue="0.27719694379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="10" y="640" width="370" height="28"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="14"/>
+                                <state key="normal" title="Click for more about mental health for students">
+                                    <color key="titleColor" red="0.02352941222" green="0.270588249" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="moreInfoButtonPressed:" destination="67b-MN-Hgi" eventType="touchUpInside" id="8HL-p2-Fxt"/>
@@ -633,8 +642,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1qq-g9-4o1">
-                                <rect key="frame" x="161" y="676" width="68" height="30"/>
+                                <rect key="frame" x="161" y="678" width="68" height="28"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="14"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" red="0.027943318710000001" green="0.27145153280000001" blue="0.2550310194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -644,8 +654,8 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Symptoms and signs of common mental health challenges students face" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hpx-tJ-pcc">
-                                <rect key="frame" x="10" y="534.66666666666663" width="370" height="83.666666666666629"/>
-                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="25"/>
+                                <rect key="frame" x="10" y="550.66666666666663" width="370" height="87"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="26"/>
                                 <color key="textColor" red="0.027943318710000001" green="0.27145153280000001" blue="0.2550310194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.066666662690000003" green="0.1764705926" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
@@ -691,7 +701,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aBb-Ji-Sgb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2568" y="-122"/>
+            <point key="canvasLocation" x="2265" y="-77"/>
         </scene>
         <!--Venting Journal View Controller-->
         <scene sceneID="eYQ-Ip-PIg">
@@ -702,10 +712,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Venting Journal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JG5-Qz-MgU">
-                                <rect key="frame" x="33" y="75" width="324" height="44"/>
+                                <rect key="frame" x="33" y="75" width="328" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="39"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="39"/>
+                                <color key="textColor" red="0.0" green="0.1607843041" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0hk-hp-DZZ">
@@ -718,34 +728,30 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x46-Pi-Wn8">
-                                <rect key="frame" x="133" y="631" width="120" height="30"/>
+                                <rect key="frame" x="133" y="666" width="120" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Click to Delete">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" red="0.0" green="0.1607843041" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="deleteButtonPressed:" destination="ylh-Jo-wQi" eventType="touchUpInside" id="aay-2M-8N5"/>
                                     <action selector="deleteButtonPressed:" destination="ZMP-bd-64j" eventType="touchUpInside" id="uGf-PC-p6K"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="QIq-DU-9kl">
-                                <rect key="frame" x="52" y="238" width="287" height="368"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Begin writing..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="QIq-DU-9kl">
+                                <rect key="frame" x="42" y="227" width="310" height="413"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.97254908080000002" green="0.86274516580000005" blue="0.78039217000000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <color key="textColor" systemColor="labelColor"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" red="0.0" green="0.1607843041" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dAS-6F-v5w">
-                                <rect key="frame" x="16" y="127" width="358" height="103"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A space to jot down your thoughts and feelings" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dAS-6F-v5w">
+                                <rect key="frame" x="26" y="127" width="335" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Click below to write down any of your thoughts and feelings!
-Feel free to delete when you are finished!
-</string>
-                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="16"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="21"/>
+                                <color key="textColor" red="0.0" green="0.1607843041" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -760,23 +766,20 @@ Feel free to delete when you are finished!
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KPf-xP-c0L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="ylh-Jo-wQi" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3790.7692307692305" y="153.55450236966823"/>
+            <point key="canvasLocation" x="2978" y="167"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="bug-dZ-yQG"/>
         <segue reference="9Yb-oq-vVr"/>
-        <segue reference="hWm-dS-2H3"/>
+        <segue reference="f6a-cd-GD7"/>
         <segue reference="Va3-G0-hoY"/>
-        <segue reference="61N-JJ-z5b"/>
+        <segue reference="J0r-Ld-1Pf"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="home button" width="48" height="48"/>
         <image name="left arrow" width="48" height="48"/>
         <image name="mindful logo" width="2048" height="2048"/>
         <image name="right arrow" width="48" height="48"/>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>

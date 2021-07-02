@@ -13,7 +13,7 @@ class SocialJusticeViewController: UIViewController {
     @IBOutlet weak var nextButton: UIButton!
     
     var websites = ["https://www.beam.community/whatwebelieve", "https://www.mhanational.org/issues/asian-americanpacific-islander-communities-and-mental-health", "https://www.nami.org/Your-Journey/Identity-and-Cultural-Dimensions/Black-African-American", "https://www.apa.org/pi/oema/resources/ethnicity-health/asian-american/article-mental-health"]
-    var buttonNames = ["Click here to learn more about BEAM", "Click here to learn more about MHA", "Click here to learn more about The NAMI", "Click here to learn more about The American Psychology Association"]
+    var buttonNames = ["Click here to learn more about BEAM", "Click here to learn more about MHA", "Click here to learn more about The NAMI", "Click for more about The American Psychology Association"]
     var titles = ["Black Emotional and Mental Health Collective (BEAM)", "\nMental Health America (MHA)", "The National Alliance on Mental Illness (NAMI)", "The American Psychological Association (APA)"]
     var index = 0
     

@@ -18,7 +18,7 @@ class StudentPressuresViewController: UIViewController {
         "https://adaa.org/",
         "https://www.stopitnow.org/ohc-content/crisis-hotlines-for-youth"
         ]
-    var buttonNames = ["Click here to learn more about mental health for college students", "Click here to learn more about self care practices", "Click here to learn more about Anxiety and Depression Association of America", "Click here to learn more about the Crisis hotlines for youth"]
+    var buttonNames = ["Click for more about mental health for students", "Click here to learn more about self care practices", "Anxiety & Depression Association of America Link", "Click for more about the Crisis hotlines for youth"]
     var titles = ["Symptoms and signs of common mental health challenges students face", "\n6 Daily Self-Care Practices for Young Adults", "\nAnxiety and Depression Association of America", "\nCrisis hotlines for youth"]
     var index = 0
     
