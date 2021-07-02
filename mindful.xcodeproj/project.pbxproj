@@ -16,6 +16,7 @@
 		5BB48BD5268CEFEC00E945FC /* Comfortaa-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BB48BC9268CEFB700E945FC /* Comfortaa-SemiBold.ttf */; };
 		5BB48BD8268CF45900E945FC /* NSAtrributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB48BD7268CF45900E945FC /* NSAtrributedStringExtension.swift */; };
 		A8446811268E52C300ACEC19 /* VentingJournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8446810268E52C300ACEC19 /* VentingJournalViewController.swift */; };
+		A87C98C4268F7AA90044FC5F /* tapAround.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87C98C3268F7AA90044FC5F /* tapAround.swift */; };
 		A8DB9261268BACEE005F127D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB9260268BACEE005F127D /* AppDelegate.swift */; };
 		A8DB9263268BACEE005F127D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB9262268BACEE005F127D /* SceneDelegate.swift */; };
 		A8DB9265268BACEE005F127D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB9264268BACEE005F127D /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 		5BB48BCC268CEFB700E945FC /* Comfortaa-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Bold.ttf"; sourceTree = "<group>"; };
 		5BB48BD7268CF45900E945FC /* NSAtrributedStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAtrributedStringExtension.swift; sourceTree = "<group>"; };
 		A8446810268E52C300ACEC19 /* VentingJournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VentingJournalViewController.swift; sourceTree = "<group>"; };
+		A87C98C3268F7AA90044FC5F /* tapAround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tapAround.swift; sourceTree = "<group>"; };
 		A8DB925D268BACEE005F127D /* mindful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mindful.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8DB9260268BACEE005F127D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8DB9262268BACEE005F127D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				CBC496F9268C1C6D006EFADC /* StudentPressuresViewController.swift */,
 				A8446810268E52C300ACEC19 /* VentingJournalViewController.swift */,
 				A8DB9264268BACEE005F127D /* ViewController.swift */,
+				A87C98C3268F7AA90044FC5F /* tapAround.swift */,
 			);
 			path = mindful;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A87C98C4268F7AA90044FC5F /* tapAround.swift in Sources */,
 				A8DB9265268BACEE005F127D /* ViewController.swift in Sources */,
 				A8DB9261268BACEE005F127D /* AppDelegate.swift in Sources */,
 				CBC496FA268C1C6D006EFADC /* StudentPressuresViewController.swift in Sources */,
@@ -343,6 +347,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2FB83JK6B3;
 				INFOPLIST_FILE = mindful/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -362,6 +367,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2FB83JK6B3;
 				INFOPLIST_FILE = mindful/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (

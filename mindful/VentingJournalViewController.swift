@@ -15,6 +15,7 @@ class VentingJournalViewController: UIViewController {
         deleteButton.layer.cornerRadius = 12
         deleteButton.layer.borderWidth = 2
         deleteButton.layer.borderColor = UIColor(red: 0, green: 61/255, blue: 57/255, alpha: 1).cgColor
+        self.hideKeyboardWhenTappedAround()
         // Do any additional setup after loading the view.
     }
     
