@@ -13,6 +13,7 @@ class HomePageViewController: UIViewController {
     @IBOutlet weak var studentPressuresButton: UIButton!
     @IBOutlet weak var blmsahButton: UIButton!
     @IBOutlet weak var covidButton: UIButton!
+    @IBOutlet weak var ventingJournalButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,6 +37,10 @@ class HomePageViewController: UIViewController {
         covidButton.layer.borderWidth = 5
         covidButton.layer.borderColor = UIColor(red: 0, green: 61/255, blue: 57/255, alpha: 1).cgColor
         covidButton.titleLabel?.textAlignment = .center
+        
+        ventingJournalButton.layer.cornerRadius = 12
+        ventingJournalButton.layer.borderWidth = 5
+        ventingJournalButton.layer.borderColor = UIColor(red: 0, green: 61/255, blue: 57/255, alpha: 1).cgColor
     }
     
 
